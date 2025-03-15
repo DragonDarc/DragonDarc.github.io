@@ -1,32 +1,68 @@
-!DOCTYPE html>
- <html lang="th">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Homepage</title>
-     <link rel="stylesheet" href="css/style.css">
- </head>
- <body>
-     <header>
-         <h1>Homepage</h1>
-         <nav>
-             <div><a href="index.html">Home</a></div>
-             <div><a href="">JavaScript</a></div>
-             <div><a href="">CV</a></div>
-         </nav>
-     </header>
- 
-     <main>
-         <section>
-             <h2>ยินดีต้อนรับ!</h2>
-             <p>Lorem ipsum dolor, sit amet consectetur 
-                 adipisicing elit. Sapiente quasi veritatis quam, odit eligendi, ex dolorum ut cupiditate quod vit
-                 ae nesciunt omnis perspiciatis sint maxime aperiam labore deserunt suscipit commodi.</p>
-         </section>
-     </main>
- 
-     <footer>
-         <p>&copy; 2025 My Website</p>
-     </footer>
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Homepage</h1>
+        <nav>
+            <div><a href="index.html">Home</a></div>
+            <div><a href="">JavaScript</a></div>
+            <div><a href="">CV</a></div>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2>สารบัญ</h2>
+            <ul>
+                <li><a href="#intro">บทความทั่วไป</a></li>
+                <li><a href="#gallery">แกลลอรี่</a></li>
+                <li><a href="#video">วิดีโอแนะนำ</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+        </aside>
+
+        <section>
+            <article id="intro">
+                <h2>บทความทั่วไป</h2>
+                <p>ยินดีต้อนรับสู่เว็บไซต์ของฉัน! ที่นี่คุณจะได้พบกับข้อมูลเกี่ยวกับตัวฉัน รวมถึงเกมและโปรเจ็กต์ต่าง ๆ</p>
+            </article>
+
+            <article id="gallery">
+                <h2>แกลลอรี่</h2>
+                <div class="gallery">
+                    <img src="image/1.png" alt="Image 1">
+                    <img src="image/2.png" alt="Image 2">
+                    <img src="image/3.png" alt="Image 3">
+                    <img src="image/4.png" alt="Image 4">
+                    <img src="image/5.png" alt="Image 5">
+                </div>
+            </article>
+
+            <article id="video">
+                <h2>วิดีโอแนะนำ</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cWEob-GIL0E?si=8Yc-WnEwQ-YhG0jR" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </article>
+
+            <article id="contact">
+                <h2>ติดต่อ</h2>
+                <p>อีเมล: 65030255@kmitl.ac.th</p>
+                <p>โทร: 012-345-6789</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+</body>
+</html>
