@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 body {
@@ -20,9 +20,6 @@ header {
     align-items: center;
     background: #0073e6;
     padding: 1rem 2rem;
-}
-
-header h1 {
     color: white;
 }
 
@@ -63,27 +60,34 @@ aside {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-aside h2 {
+.profile-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    margin: 5px 0;
+}
+
+.skill {
     margin-bottom: 10px;
 }
 
-aside ul {
-    list-style: none;
-    padding: 0;
+.progress {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
 }
 
-aside ul li {
-    margin-bottom: 10px;
+.progress div {
+    background: #0073e6;
+    color: white;
+    text-align: center;
+    height: 100%;
 }
-
-aside ul li a {
-    text-decoration: none;
-    color: #0073e6;
-    font-weight: bold;
-}
-
-aside ul li a:hover {
-    text-decoration: underline;
+ul {
+    margin-left: 15px;
 }
 
 /* Section */
@@ -94,32 +98,13 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section article {
-    margin-bottom: 50px;
-}
-
 section h2 {
     color: #005bb5;
+    margin-bottom: 10px;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 10px;
-    justify-items: center;
-}
-
-.gallery img {
-    width: 100%;
-    height: 200px; 
-    object-fit: cover; 
-    border-radius: 10px;
-}
-
-video {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
+.about-info p {
+    margin-bottom: 10px;
 }
 
 /* Footer */
@@ -128,24 +113,4 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-}
-
-@media (max-width: 768px) {
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .video-container iframe {
-        height: 300px;
-        width: auto; 
-    }
-}
-
-@media (max-width: 480px) {
-    .gallery {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .video-container iframe {
-        height: 200px;
-        width: auto;
-    }
 }
