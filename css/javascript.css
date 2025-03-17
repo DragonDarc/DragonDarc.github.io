@@ -149,3 +149,36 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    width: 440px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #0073e6;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card.flipped {
+    background-color: #f4f4f4;
+    color: #0073e6;
+}
+
+button {
+    margin-top: 10px;
+}
