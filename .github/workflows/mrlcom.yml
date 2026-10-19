@@ -1,0 +1,65 @@
+name: Update MRLCOM
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_mrlcom-source/**'
+      - '.github/workflows/mrlcom.yml'
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: Check original public news sources
+        type: boolean
+        default: true
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: mrlcom-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: _mrlcom-source
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: _mrlcom-source/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - name: Check original activity sources
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh)
+        run: npm run update:data
+      - name: Build MRLCOM
+        run: npm run build
+        env:
+          SITE_URL: https://dragondarc.github.io/mrlcom/
+      - name: Update published MRLCOM folder
+        run: node scripts/copy-publication.mjs
+      - name: Save published files
+        working-directory: .
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add _mrlcom-source/public/data/activities.json mrlcom
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update MRLCOM public activities and website'
+            git push
+          fi
+      - name: Request GitHub Pages publication
+        run: node scripts/request-pages-build.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
