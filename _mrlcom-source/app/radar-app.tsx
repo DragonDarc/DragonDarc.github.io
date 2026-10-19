@@ -9,6 +9,7 @@ import type { PortfolioFormat } from '../lib/radar-formats';
 
 import { tracks, matchesTrack, activityCategories, categoriesForTrack } from '../lib/radar-tracks';
 import CinematicOpening from './cinematic-opening';
+import ThemeToggle from './theme-toggle';
 import type { Track } from '../lib/radar-tracks';
 import { loadPublishedData, readSaved, writeSaved, SAVED_KEY } from '../lib/pages-data';
 
@@ -79,7 +80,7 @@ export default function RadarApp({initial}:{initial:AppData}){
    <div className="sidebar-bottom"><button className="help-link" onClick={()=>setHelp(true)}><CircleHelp size={17}/>วิธีใช้</button></div>
   </aside>
   <div className="main-shell">
-   <header className="topbar"><div className="breadcrumb"><button className="mobile-menu icon-button" onClick={()=>setMobileMenu(true)} aria-label="เปิดเมนู"><Menu size={21}/></button><button className="cinema-brand-home" onClick={()=>navigate('discover')}>MRLCOM<span>โรงเรียนมาเรียลัย</span></button><ChevronRight className="breadcrumb-divider" size={14}/><b>{navTitle}</b></div>{view==='discover'&&<nav className="cinema-quick-nav" aria-label="ทางลัด"><button onClick={openHub}>ค้นหากิจกรรม</button><button onClick={()=>navigate('saved')}>รายการที่บันทึก</button><button onClick={()=>navigate('calendar')}>ปฏิทิน</button><button onClick={()=>navigate('sources')}>แหล่งข้อมูล</button></nav>}<div className="topbar-right"><button className="notification icon-button" onClick={()=>{navigate('discover');setStatus('soon');openHub();}} aria-label="ดูกิจกรรมใกล้ปิดรับสมัคร"><Bell size={20}/>{soon.length>0&&<i/>}</button></div></header>
+   <header className="topbar"><div className="breadcrumb"><button className="mobile-menu icon-button" onClick={()=>setMobileMenu(true)} aria-label="เปิดเมนู"><Menu size={21}/></button><button className="cinema-brand-home" onClick={()=>navigate('discover')}>MRLCOM<span>โรงเรียนมาเรียลัย</span></button><ChevronRight className="breadcrumb-divider" size={14}/><b>{navTitle}</b></div>{view==='discover'&&<nav className="cinema-quick-nav" aria-label="ทางลัด"><button onClick={openHub}>ค้นหากิจกรรม</button><button onClick={()=>navigate('saved')}>รายการที่บันทึก</button><button onClick={()=>navigate('calendar')}>ปฏิทิน</button><button onClick={()=>navigate('sources')}>แหล่งข้อมูล</button></nav>}<div className="topbar-right"><ThemeToggle/><button className="notification icon-button" onClick={()=>{navigate('discover');setStatus('soon');openHub();}} aria-label="ดูกิจกรรมใกล้ปิดรับสมัคร"><Bell size={20}/>{soon.length>0&&<i/>}</button></div></header>
    <main id="activity-hub" tabIndex={-1}>
     <div className="page-heading"><div><h1>{view==='discover'?'ค้นหากิจกรรม':view==='saved'?'รายการที่บันทึก':view==='calendar'?'ปฏิทินกิจกรรม':'แหล่งข่าว'}</h1><p className="subtitle">{view==='discover'?'ค่าย แข่งขัน และกิจกรรมทำพอร์ตที่เหมาะกับคุณ':view==='saved'?'เก็บไว้ในเบราว์เซอร์นี้ · ดาวน์โหลด CSV ได้':view==='calendar'?'วางแผนวันสมัครและวันเข้าร่วมกิจกรรม':'ตรวจสถานะแหล่งข่าวและเวลาอัปเดต'}</p></div>{<button className="button secondary refresh" onClick={refresh} disabled={syncing}><RefreshCw size={16} className={syncing?'spin':''}/>{syncing?'กำลังโหลด…':'โหลดข้อมูลล่าสุด'}</button>}</div>
     {data.error&&<div className="notice warning"><AlertCircle size={18}/>{data.error}</div>}

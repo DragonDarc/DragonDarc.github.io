@@ -1,9 +1,21 @@
 <!doctype html>
-<html lang="th">
+<html lang="th" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#07101f" />
+    <script>
+      (() => {
+        let theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        try {
+          const saved = localStorage.getItem('mrlcom:theme:v1');
+          if (saved === 'light' || saved === 'dark') theme = saved;
+        } catch {}
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === 'light' ? '#f4f7fc' : '#07101f';
+      })();
+    </script>
     <title>MRLCOM โรงเรียนมาเรียลัย | รวมกิจกรรม ค่าย และการแข่งขันนักเรียน</title>
     <meta name="description" content="MRLCOM โรงเรียนมาเรียลัย รวมค่าย การแข่งขัน และโอกาสทำพอร์ตสำหรับนักเรียน สายวิทย์–เทคโนโลยีและศิลป์–ภาษา ค้นหาฟรี ไม่ต้องล็อกอิน" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
@@ -18,7 +30,7 @@
     <link rel="preload" as="image" href="./images/mrlcom-students-scifi.webp" />
   </head>
   <body>
-    <div id="root"><main style="max-width:960px;margin:12vh auto;padding:24px;color:#e3eeff;font-family:Itim,Tahoma,sans-serif"><h1>MRLCOM โรงเรียนมาเรียลัย</h1><p>ศูนย์รวมกิจกรรม ค่าย และการแข่งขันสำหรับนักเรียน สายวิทย์–เทคโนโลยีและศิลป์–ภาษา</p><p>กำลังโหลดกิจกรรม…</p></main></div>
+    <div id="root"><main style="max-width:960px;margin:12vh auto;padding:24px;color:var(--ink);font-family:Itim,Tahoma,sans-serif"><h1>MRLCOM โรงเรียนมาเรียลัย</h1><p>ศูนย์รวมกิจกรรม ค่าย และการแข่งขันสำหรับนักเรียน สายวิทย์–เทคโนโลยีและศิลป์–ภาษา</p><p>กำลังโหลดกิจกรรม…</p></main></div>
     <noscript>กรุณาเปิด JavaScript เพื่อค้นหากิจกรรมและบันทึกรายการที่สนใจ</noscript>
     <script type="module" src="/app/main.tsx"></script>
   </body>
