@@ -60,22 +60,22 @@ export default function CinematicOpening({onExplore,onChoose,sourceCount,activit
    <div className="cine-arrival-shade" aria-hidden="true"/>
    <div className="cine-corner corner-one" aria-hidden="true"/><div className="cine-corner corner-two" aria-hidden="true"/>
    <div className="cine-welcome" inert={!reduced&&phase==='path'}>
-    <p className="cine-overline"><span/> MRLCOM · MARIALAI SCHOOL</p>
-    <h1>โลกใบถัดไป<br/>เริ่มที่<span>ความสนใจ</span><br/>ของคุณ<span className="cine-period">.</span></h1>
-    <p className="cine-description">จากห้องเรียน สู่เวทีที่ได้ลองจริง<br/>ค้นหาค่าย การแข่งขัน และกิจกรรม<br className="cine-mobile-break"/>ที่พาไอเดียของคุณไปไกลกว่าเดิม</p>
-    <div className="cine-actions"><button className="cine-primary" onClick={start}>ออกไปค้นพบ <ArrowUpRight size={19}/></button><button className="cine-text-button" onClick={onExplore}>ค้นหากิจกรรมเลย <ArrowRight size={16}/></button></div>
-    <div className="cine-source-note"><span className="cine-small-dot"/>{activityCount} ข่าวและกิจกรรม · จาก {sourceCount} แหล่งข้อมูล</div>
+    <p className="cine-overline"><span/> MRLCOM · โรงเรียนมาเรียลัย</p>
+    <h1>ลองสิ่งที่ชอบ<br/>เจอ<span>ทางที่ใช่</span></h1>
+    <p className="cine-description">ค่าย แข่งขัน และกิจกรรมทำพอร์ต<br/>เลือกโอกาสที่ตรงกับคุณ</p>
+    <div className="cine-actions"><button className="cine-primary" onClick={start}>เลือกสายที่สนใจ <ArrowUpRight size={19}/></button><button className="cine-text-button" onClick={onExplore}>ดูกิจกรรมทั้งหมด <ArrowRight size={16}/></button></div>
+    <div className="cine-source-note"><span className="cine-small-dot"/>{activityCount} กิจกรรม · {sourceCount} แหล่งข่าว</div>
    </div>
    <div id="cinematic-paths" className="cine-gateway" inert={!reduced&&phase!=='path'}>
-    <div className="cine-path-intro"><p className="cine-overline"><Sparkles size={14}/> YOUR INTEREST. YOUR NEXT CHAPTER.</p><h2>ทุกความสนใจ<br/><span>มีเส้นทางของตัวเอง</span></h2><p>เลือกสิ่งที่อยากลอง แล้วไปเจอสนามที่ใช่</p></div>
+    <div className="cine-path-intro"><h2>เลือก<span>สายที่สนใจ</span></h2><p>เริ่มจากสิ่งที่ชอบ แล้วลองสนามใหม่</p></div>
     <div className="cine-path-grid">
-     <button className="cine-path-card science-path" onClick={()=>onChoose('science')}><span className="cine-path-label">01 / DISCOVER & INVENT</span><div className="cine-path-orb"><Atom size={45} strokeWidth={1.25}/><i/><i/></div><h3>วิทย์–เทคโนโลยี</h3><p>วิทยาศาสตร์ คณิต คอมพิวเตอร์<br/>วิศวกรรม และนวัตกรรม</p><span className="cine-path-action">สำรวจสายวิทย์ <ArrowUpRight size={19}/></span></button>
-     <button className="cine-path-card arts-path" onClick={()=>onChoose('arts')}><span className="cine-path-label">02 / IMAGINE & CREATE</span><div className="cine-path-orb"><Film size={41} strokeWidth={1.3}/><i/><i/></div><h3>ศิลป์–ภาษา</h3><p>ภาษา สื่อ งานเขียน การออกแบบ<br/>ดนตรี และความคิดสร้างสรรค์</p><span className="cine-path-action">สำรวจสายศิลป์ <ArrowUpRight size={19}/></span></button>
+     <button className="cine-path-card science-path" onClick={()=>onChoose('science')}><div className="cine-path-orb"><Atom size={45} strokeWidth={1.25}/><i/><i/></div><h3>วิทย์–เทคโนโลยี</h3><p>วิทย์ คณิต คอมพิวเตอร์<br/>วิศวกรรมและนวัตกรรม</p><span className="cine-path-action">สำรวจสายวิทย์ <ArrowUpRight size={19}/></span></button>
+     <button className="cine-path-card arts-path" onClick={()=>onChoose('arts')}><div className="cine-path-orb"><Film size={41} strokeWidth={1.3}/><i/><i/></div><h3>ศิลป์–ภาษา</h3><p>ภาษา สื่อ ออกแบบ<br/>ดนตรีและการแสดง</p><span className="cine-path-action">สำรวจสายศิลป์ <ArrowUpRight size={19}/></span></button>
     </div>
-    <button className="cine-all-paths" onClick={()=>onChoose('all')}><Compass size={16}/>ยังไม่เลือกสาย · ดูทุกโอกาส <ArrowRight size={16}/></button>
+    <button className="cine-all-paths" onClick={()=>onChoose('all')}><Compass size={16}/>ดูทุกสาย <ArrowRight size={16}/></button>
    </div>
    <div className="cine-controls"><button onClick={()=>setReduced(v=>!v)} aria-pressed={reduced}>{reduced?<Play size={12}/>:<Pause size={12}/>}<span>{reduced?'เปิดการเคลื่อนไหว':'ลดการเคลื่อนไหว'}</span></button><button onClick={onExplore}>ข้ามไปค้นหา <ArrowDown size={13}/></button></div>
-   <div className="cine-bottom-bar" aria-hidden="true"><span>EXPLORE BEYOND THE CLASSROOM</span><span className="cine-scroll-cue">{phase==='welcome'?'เลื่อนเพื่อเริ่มสำรวจ':'เลื่อนต่อเพื่อดูกิจกรรม'}<MoveDown size={15}/></span><span>{phase==='welcome'?'01 / THE NEXT WORLD':'02 / CHOOSE YOUR PATH'}</span></div>
+   <div className="cine-bottom-bar" aria-hidden="true"><span className="cine-scroll-cue">{phase==='welcome'?'เลื่อนเพื่อเริ่มสำรวจ':'เลื่อนต่อเพื่อดูกิจกรรม'}<MoveDown size={15}/></span></div>
    <div className="cine-progress" aria-hidden="true"><span/><i/></div>
   </div>
  </section>;

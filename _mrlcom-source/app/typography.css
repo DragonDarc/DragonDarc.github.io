@@ -1,0 +1,205 @@
+@import './itim-fonts.css';
+
+:root { --font-ui: 'Itim', Tahoma, sans-serif; --muted: #b4c5df; }
+body { font-family: var(--font-ui); font-size: 18px; line-height: 1.65; font-synthesis: none; }
+.app-shell :is(h1,h2,h3,h4,p,a,button,span,label,input,select,textarea,small,strong,b,em,dt,dd,kbd,li,time) {
+  font-family: var(--font-ui); letter-spacing: normal;
+}
+h1,h2,h3,h4,strong,b,button { font-weight: 400; }
+button,input,select,textarea { font-family: inherit; }
+button,a,input,select { touch-action: manipulation; }
+
+/* Clear Thai letter shapes, comfortable line spacing, fewer repeated labels */
+.brand, .brand > span:last-child { font-size: 27px; font-weight: 400; }
+.workspace b { font-size: 18px; font-weight: 400; }
+.workspace small { font-size: 14px; white-space: normal; }
+.workspace { margin: 24px 0; padding: 15px 10px; }
+.nav-item { min-height: 48px; font-size: 18px; gap: 12px; }
+.nav-item em { font-size: 15px; }
+.help-link { font-size: 17px; min-height: 44px; }
+.sidebar-bottom { margin-top: auto; }
+.cinema-brand-home, .breadcrumb .cinema-brand-home { font-size: 23px; font-weight: 400; letter-spacing: 0; }
+.cinema-brand-home > span { font-size: 13px; line-height: 1.5; margin-top: 3px; }
+.cinema-quick-nav { gap: 25px; }
+.cinema-quick-nav button { font-size: 17px; min-height: 44px; }
+.breadcrumb > b { font-size: 17px; font-weight: 400; }
+.topbar-right { gap: 12px; }
+
+.page-heading h1, .cinema-layout .page-heading h1 { font-size: 37px; font-weight: 400; line-height: 1.35; letter-spacing: 0; }
+.subtitle, .cinema-layout .subtitle { font-size: 18px; line-height: 1.65; color: #bccde5; margin-top: 8px; }
+.button, .refresh { font-size: 17px; min-height: 44px; padding: 10px 17px; }
+.stat > div > span { font-size: 17px; line-height: 1.5; color: #bdcde4; }
+.stat > div > b { font-size: 37px; font-weight: 400; line-height: 1.2; }
+.stat small { font-size: 16px; }
+.stats { gap: 16px; }
+
+.search-section { margin-top: 26px; padding-top: 4px; }
+.search-line { gap: 12px; }
+.search-box { min-height: 54px; }
+.search-box input { font-size: 19px; line-height: 1.5; }
+.search-box kbd { font-size: 15px; }
+.track-picker { margin-top: 18px; gap: 12px; }
+.track-picker .track-option { padding: 17px; min-height: 95px; }
+.track-picker strong, .track-copy strong { font-size: 21px; font-weight: 400; line-height: 1.4; }
+.track-picker .track-copy > span { font-size: 16px; line-height: 1.5; color: #bdcee7; }
+.track-note { font-size: 15px; color: #b7cbe7; line-height: 1.6; margin: 12px 0 18px; }
+.category-tabs { gap: 8px; }
+.category-tabs button, .portfolio-chips button { font-size: 16px; min-height: 42px; padding: 8px 13px; line-height: 1.4; }
+.portfolio-filters { padding: 18px 0 6px; }
+.portfolio-caption { font-size: 16px; font-weight: 400; color: #c9d9ef; }
+.portfolio-filters p { font-size: 15px; line-height: 1.6; }
+.filters label, .filters select, .filters .text-button { font-size: 16px; }
+.filters label { flex: 1 1 150px; }
+.filters select { min-height: 44px; padding-top: 8px; padding-bottom: 8px; }
+.text-button { font-size: 16px; min-height: 42px; }
+
+.content-layout, .cinema-layout .content-layout { gap: 24px; margin-top: 32px; grid-template-columns: minmax(0,1fr) 265px; }
+.content-layout.saved-layout { grid-template-columns: minmax(0,1fr); }
+.section-heading h2 { font-size: 25px; line-height: 1.4; font-weight: 400; }
+.section-heading h2 > span { font-size: 16px; }
+.section-heading select { font-size: 16px; min-height: 42px; }
+.status-tabs { gap: 8px; }
+.status-tabs button { min-height: 42px; font-size: 16px; padding: 8px 13px; line-height: 1.4; }
+.activity-grid, .cinema-layout .activity-grid { gap: 19px; }
+.activity-card { border-color: #38506d; }
+.card-content { padding: 20px 21px; }
+.type-label, .type-label small, .review-label, .status { font-size: 15px; line-height: 1.5; }
+.card-badges { gap: 8px; flex-wrap: wrap; }
+.card-title h3, .cinema-layout .card-title h3 { font-size: 23px; line-height: 1.4; letter-spacing: 0; font-weight: 400; min-height: 0; -webkit-line-clamp: 3; }
+.organizer { font-size: 16px; line-height: 1.55; color: #c8d6eb; }
+.activity-source { font-size: 15px; line-height: 1.55; color: #a6c6e9; margin-top: 5px; }
+.card-summary, .cinema-layout .card-summary { font-size: 17px; line-height: 1.65; color: #bdcde4; min-height: 0; margin-top: 12px; -webkit-line-clamp: 2; }
+.tag-row { gap: 7px; margin-top: 15px; }
+.tag-row span { font-size: 14px; line-height: 1.5; padding: 4px 9px; }
+.card-facts { font-size: 16px; line-height: 1.5; color: #bdcde4; gap: 9px; }
+.card-facts:empty { display: none; }
+.card-facts span { font-size: 16px; line-height: 1.5; }
+.card-footer { padding: 16px 21px; gap: 12px; }
+.card-footer small { font-size: 14px; line-height: 1.5; }
+.card-footer strong { font-size: 18px; font-weight: 400; }
+.fee-label { font-size: 16px; line-height: 1.5; }
+.save-button, .card-arrow { min-width: 42px; min-height: 42px; }
+.empty-state h3 { font-size: 26px; }
+.empty-state p { font-size: 18px; line-height: 1.65; }
+
+.rail-heading h3 { font-size: 22px; font-weight: 400; line-height: 1.4; }
+.deadline-panel { padding: 23px 21px; }
+.timeline-item { padding-top: 17px; padding-bottom: 17px; }
+.timeline-item b { font-size: 18px; font-weight: 400; line-height: 1.5; }
+.timeline-item small, .timeline-item > span:last-child, .rail-link { font-size: 16px; line-height: 1.5; }
+.timeline-item small { color: #b9cce6; }
+
+.detail-body > h2 { font-size: 31px; line-height: 1.4; letter-spacing: 0; font-weight: 400; }
+.detail-organizer { font-size: 18px; line-height: 1.6; }
+.detail-summary { font-size: 19px; line-height: 1.8; color: #cad7eb; }
+.detail-top .eyebrow { font-size: 15px; line-height: 1.5; letter-spacing: 0; }
+.detail-facts b { font-size: 18px; line-height: 1.6; font-weight: 400; }
+.detail-facts small { font-size: 15px; line-height: 1.5; }
+.fee-note { font-size: 18px; line-height: 1.6; }
+.verification b { font-size: 18px; font-weight: 400; }
+.verification p, .verification small { font-size: 15px; line-height: 1.6; }
+.detail-actions .button, .edit-link { font-size: 17px; }
+.help-modal h2 { font-size: 31px; font-weight: 400; }
+.help-modal > p { font-size: 19px; }
+.help-modal li b { font-size: 20px; font-weight: 400; }
+.help-modal li span, .notice { font-size: 17px; line-height: 1.65; }
+.toast { font-size: 17px; line-height: 1.5; }
+
+.sources-banner h2 { font-size: 29px; font-weight: 400; }
+.sources-banner p { font-size: 18px; line-height: 1.65; }
+.sources-banner small { font-size: 16px; line-height: 1.6; }
+.source-title h3 { font-size: 23px; font-weight: 400; line-height: 1.4; }
+.source-title > span, .source-status { font-size: 15px; line-height: 1.5; }
+.source-description, .source-message { font-size: 17px; line-height: 1.7; }
+.source-card dt, .source-card dd { font-size: 16px; line-height: 1.6; }
+.source-channels a { font-size: 15px; line-height: 1.5; }
+.source-actions a, .source-actions .text-button { font-size: 16px; }
+.calendar-toolbar h2 { font-size: 27px; font-weight: 400; }
+.calendar-key, .calendar-toolbar .button { font-size: 15px; }
+.calendar-week span, .day-number { font-size: 18px; }
+.calendar-entry { font-size: 14px; line-height: 1.5; }
+.calendar-footnote { font-size: 16px; line-height: 1.65; }
+.footer { margin-top: 36px; padding-top: 22px; gap: 12px 22px; font-size: 15px; line-height: 1.6; }
+
+/* Keep the sci-fi scene, let the shorter Thai headline breathe */
+.cine-welcome { width: min(720px,70vw); max-width: calc(100% - 48px); }
+.cine-overline { font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: 0; margin-bottom: 20px; }
+.cine-welcome h1 { font-size: clamp(58px,7.1vw,106px); line-height: 1.17; font-weight: 400; letter-spacing: 0; }
+.cine-description { font-size: 22px; line-height: 1.6; margin-top: 23px; }
+.cine-primary, .cine-text-button { font-size: 19px; line-height: 1.4; min-height: 52px; }
+.cine-source-note { font-size: 15px; line-height: 1.5; letter-spacing: 0; }
+.cine-path-intro h2 { font-size: clamp(36px,4vw,52px); line-height: 1.35; font-weight: 400; letter-spacing: 0; }
+.cine-path-intro > p:last-child { font-size: 20px; line-height: 1.6; }
+.cine-path-card h3 { font-size: 31px; line-height: 1.35; font-weight: 400; letter-spacing: 0; }
+.cine-path-card > p { font-size: 19px; line-height: 1.6; }
+.cine-path-action { font-size: 18px; line-height: 1.5; }
+.cine-all-paths { font-size: 18px; min-height: 44px; }
+.cine-controls button { font-size: 14px; min-height: 38px; line-height: 1.4; padding: 8px 12px; }
+.cine-bottom-bar { justify-content: center; }
+.cine-scroll-cue { font-size: 15px; line-height: 1.5; letter-spacing: 0; }
+
+@media (max-width: 1100px) {
+  .content-layout, .cinema-layout .content-layout { grid-template-columns: minmax(0,1fr); }
+  .right-rail { display: none; }
+  .cinema-quick-nav { gap: 18px; }
+  .cinema-quick-nav button { font-size: 16px; }
+  .cine-description { font-size: 20px; }
+}
+@media (max-width: 700px) {
+  body { font-size: 17px; }
+  .page-heading { gap: 16px; flex-wrap: wrap; }
+  .page-heading h1, .cinema-layout .page-heading h1 { font-size: 31px; line-height: 1.4; }
+  .subtitle, .cinema-layout .subtitle { font-size: 17px; line-height: 1.65; }
+  .stat { padding: 17px 12px; }
+  .stat > div > span { font-size: 15px; line-height: 1.45; }
+  .stat > div > b { font-size: 31px; }
+  .stat small { font-size: 14px; }
+  .stat > svg { display: none; }
+  .track-picker .track-option { padding: 14px 15px; min-height: 82px; }
+  .track-picker strong, .track-copy strong { font-size: 21px; }
+  .track-picker .track-copy > span { font-size: 16px; }
+  .search-box input { font-size: 18px; }
+  .category-tabs button, .portfolio-chips button { font-size: 16px; }
+  .card-title h3, .cinema-layout .card-title h3 { font-size: 23px; line-height: 1.4; }
+  .card-summary, .cinema-layout .card-summary { font-size: 17px; }
+  .card-content { padding: 20px; }
+  .card-footer { padding: 15px 20px; }
+  .section-heading { gap: 12px; flex-wrap: wrap; }
+  .section-heading h2 { font-size: 24px; }
+  .section-heading select { font-size: 15px; }
+  .detail-body > h2 { font-size: 27px; }
+  .detail-summary { font-size: 18px; }
+  .detail-actions .button { font-size: 16px; }
+  .sources-banner h2 { font-size: 25px; }
+  .source-title h3 { font-size: 23px; }
+  .source-status { font-size: 14px; }
+  .calendar-toolbar { align-items: flex-start; flex-wrap: wrap; gap: 12px; }
+  .calendar-toolbar > div { flex-wrap: wrap; gap: 10px; }
+  .calendar-entry { font-size: 13px; }
+  .footer { font-size: 15px; }
+  .cine-welcome { width: calc(100% - 48px); max-width: 620px; left: 24px; }
+  .cine-welcome h1 { font-size: clamp(52px,10.8vw,76px); line-height: 1.22; letter-spacing: 0; }
+  .cine-overline { font-size: 14px; }
+  .cine-description { font-size: 19px; line-height: 1.6; }
+  .cine-primary, .cine-text-button { font-size: 18px; }
+  .cine-source-note { font-size: 14px; }
+  .cine-path-intro h2 { font-size: 35px; line-height: 1.35; }
+  .cine-path-intro > p:last-child { font-size: 18px; }
+  .cine-path-card h3 { font-size: 25px; line-height: 1.4; }
+  .cine-path-card > p, .cine-path-action { font-size: 16px; line-height: 1.6; }
+  .cine-all-paths { font-size: 17px; }
+  .cine-controls button { font-size: 13px; min-height: 36px; }
+  .cine-scroll-cue { font-size: 14px; }
+}
+@media (max-width: 420px) {
+  .track-note { font-size: 14px; }
+  .cine-welcome h1 { font-size: 52px; }
+  .cine-description { font-size: 18px; }
+  .cine-actions { gap: 12px; flex-wrap: wrap; }
+  .cine-gateway { padding-left: 20px; padding-right: 20px; }
+  .cine-path-grid { gap: 10px; }
+  .cine-path-card { padding-left: 13px; padding-right: 13px; }
+  .cine-path-card h3 { font-size: 23px; }
+  .cine-path-card > p { font-size: 16px; }
+  .cine-path-action { font-size: 15px; }
+}

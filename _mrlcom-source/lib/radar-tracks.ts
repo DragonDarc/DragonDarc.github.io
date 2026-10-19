@@ -2,8 +2,8 @@ import type { Activity, Category } from './radar-types';
 import { activityFormats } from './radar-formats';
 export const tracks = {
  all: { label:'ทุกสาย', description:'สำรวจทุกความสนใจ' },
- science: { label:'สายวิทย์–เทคโนโลยี', description:'วิทย์ คณิต คอมพิวเตอร์ วิศวกรรม' },
- arts: { label:'สายศิลป์–ภาษา', description:'ภาษา งานเขียน สื่อ ศิลปะและการแสดง' },
+ science: { label:'วิทย์–เทคโนโลยี', description:'วิทย์ คณิต คอมพิวเตอร์ วิศวกรรม' },
+ arts: { label:'ศิลป์–ภาษา', description:'ภาษา สื่อ ออกแบบ ดนตรี' },
 };
 export type Track = keyof typeof tracks;
 const scienceCategories:Category[]=['computer','science','math','engineering'];

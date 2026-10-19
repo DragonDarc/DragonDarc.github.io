@@ -4,6 +4,7 @@ import { loadPublishedData } from '../lib/pages-data';
 import './globals.css';
 import './mrlcom-design.css';
 import './cinematic.css';
+import './typography.css';
 
 async function start() {
   const root = createRoot(document.getElementById('root')!);

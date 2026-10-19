@@ -1,4 +1,5 @@
 import type { Activity, AppData, SourceState } from './radar-types';
+import { cleanDisplayCopy } from './display-copy';
 
 export const SAVED_KEY = 'mrlcom:saved:v1';
 
@@ -24,5 +25,19 @@ export async function loadPublishedData(): Promise<AppData> {
   if (!response.ok) throw new Error('โหลดข้อมูลล่าสุดไม่ได้');
   const data = await response.json() as PublishedData;
   if (!Array.isArray(data.activities) || !Array.isArray(data.sources)) throw new Error('รูปแบบข้อมูลไม่ถูกต้อง');
-  return { ...data, saved: readSaved(), nextSync: null, scheduleEnabled: data.scheduleEnabled === true };
+  const activities = data.activities.map(activity => ({
+    ...activity,
+    title: cleanDisplayCopy(activity.title),
+    organizer: cleanDisplayCopy(activity.organizer),
+    summary: cleanDisplayCopy(activity.summary),
+    feeNote: cleanDisplayCopy(activity.feeNote),
+    location: cleanDisplayCopy(activity.location),
+    team: cleanDisplayCopy(activity.team),
+  }));
+  const sources = data.sources.map(source => ({
+    ...source,
+    message: cleanDisplayCopy(source.message),
+    description: source.description ? cleanDisplayCopy(source.description) : source.description,
+  }));
+  return { ...data, activities, sources, saved: readSaved(), nextSync: null, scheduleEnabled: data.scheduleEnabled === true };
 }
