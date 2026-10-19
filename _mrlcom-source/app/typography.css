@@ -25,6 +25,7 @@ button,a,input,select { touch-action: manipulation; }
 .breadcrumb > b { font-size: 17px; font-weight: 400; }
 .topbar-right { gap: 12px; }
 
+.cinema-layout main { padding-top: 36px; }
 .page-heading h1, .cinema-layout .page-heading h1 { font-size: 37px; font-weight: 400; line-height: 1.35; letter-spacing: 0; }
 .subtitle, .cinema-layout .subtitle { font-size: 18px; line-height: 1.65; color: #bccde5; margin-top: 8px; }
 .button, .refresh { font-size: 17px; min-height: 44px; padding: 10px 17px; }
@@ -33,7 +34,7 @@ button,a,input,select { touch-action: manipulation; }
 .stat small { font-size: 16px; }
 .stats { gap: 16px; }
 
-.search-section { margin-top: 26px; padding-top: 4px; }
+.search-section { margin-top: 20px; padding-top: 4px; }
 .search-line { gap: 12px; }
 .search-box { min-height: 54px; }
 .search-box input { font-size: 19px; line-height: 1.5; }
