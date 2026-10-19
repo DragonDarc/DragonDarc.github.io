@@ -29,7 +29,7 @@
       "reviewed": true,
       "needsReview": false,
       "checkedAt": "2026-10-12T06:05:00.000Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null
     },
     {
@@ -61,7 +61,7 @@
       "reviewed": true,
       "needsReview": true,
       "checkedAt": "2026-10-12T06:05:00.000Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null
     },
     {
@@ -223,8 +223,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-10-08T02:24:56.000Z",
       "formats": [],
       "officialURL": null
@@ -299,8 +299,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "video"
@@ -330,8 +330,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -359,8 +359,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -388,8 +388,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "design"
@@ -421,8 +421,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "video"
@@ -452,8 +452,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -481,8 +481,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -510,8 +510,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "design"
@@ -541,8 +541,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -570,8 +570,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T03:01:16.968Z",
-      "fetchedAt": "2026-10-19T03:01:16.968Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "design"
@@ -586,7 +586,7 @@
       "url": "https://sciweek.sci.psu.ac.th/schedule-of-forensic-science/",
       "category": "science",
       "kind": "competition",
-      "summary": "กำหนดการ \"แข่งขันการค้นหานักสืบนิติวิทยาศาสตร์รุ่นเยาว์\" ภายใต้กิจกรรมสัปดาห์วิทยาศาสตร์ ประจำปี 2569 - สัปดาห์วิทยาศาสตร์แห่งชาติ ประจำปี 2569 Skip to content หน้าแรก ข่าว การแข่งขัน นิทรรศการ กำหนดการ ดาวน์โหลด ติดต่อ แบบประเมิน เกียรติบัตร กำหนดการ “แข่งขันการค้นหานักสืบนิติวิ…",
+      "summary": "กำหนดการ \"แข่งขันการค้นหานักสืบนิติวิทยาศาสตร์รุ่นเยาว์\" ภายใต้กิจกรรมสัปดาห์วิทยาศาสตร์ ประจำปี 2569 - สัปดาห์วิทยาศาสตร์แห่งชาติ ประจำปี 2569 --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> Skip to content หน้าแรก ข่าว การแข่งขัน นิทรรศการ กำหนดก…",
       "levels": [
         "ม.4",
         "ม.5",
@@ -605,8 +605,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "video"
@@ -621,7 +621,7 @@
       "url": "https://sciweek.sci.psu.ac.th/rules-of-forensic-science/",
       "category": "science",
       "kind": "competition",
-      "summary": "ประกาศข้อปฏิบัติ! การแข่งขันการค้นหานักสืบนิติวิทยาศาสตร์รุ่นเยาว์ ประจำปี 2569 - สัปดาห์วิทยาศาสตร์แห่งชาติ ประจำปี 2569 Skip to content หน้าแรก ข่าว การแข่งขัน นิทรรศการ กำหนดการ ดาวน์โหลด ติดต่อ แบบประเมิน เกียรติบัตร ประกาศข้อปฏิบัติ! การแข่งขันการค้นหานักสืบนิติวิทยาศาสตร์รุ…",
+      "summary": "ประกาศข้อปฏิบัติ! การแข่งขันการค้นหานักสืบนิติวิทยาศาสตร์รุ่นเยาว์ ประจำปี 2569 - สัปดาห์วิทยาศาสตร์แห่งชาติ ประจำปี 2569 --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> Skip to content หน้าแรก ข่าว การแข่งขัน นิทรรศการ กำหนดการ ดาวน์โหลด ติดต่อ แบ…",
       "levels": [
         "ม.4",
         "ม.5",
@@ -640,8 +640,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "video"
@@ -656,7 +656,7 @@
       "url": "https://sciweek.sci.psu.ac.th/sci-short-film-contest-extended/",
       "category": "creative",
       "kind": "competition",
-      "summary": "ขยายเวลารับสมัคร \"ประกวดหนังสั้นวิทยาศาสตร์ รางวัลช่อศรีตรัง ครั้งที่ 11\" ถึง 8 ก.ค. 2569 นี้! - สัปดาห์วิทยาศาสตร์แห่งชาติ ประจำปี 2569 Skip to content หน้าแรก ข่าว การแข่งขัน นิทรรศการ กำหนดการ ดาวน์โหลด ติดต่อ แบบประเมิน เกียรติบัตร ขยายเวลารับสมัคร “ประกวดหนังสั้นวิทยาศาสตร์ …",
+      "summary": "ขยายเวลารับสมัคร \"ประกวดหนังสั้นวิทยาศาสตร์ รางวัลช่อศรีตรัง ครั้งที่ 11\" ถึง 8 ก.ค. 2569 นี้! - สัปดาห์วิทยาศาสตร์แห่งชาติ ประจำปี 2569 --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> Skip to content หน้าแรก ข่าว การแข่งขัน นิทรรศการ กำหนดการ ดาวน์โหล…",
       "levels": [
         "ม.4",
         "ม.5",
@@ -675,8 +675,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "video"
@@ -691,7 +691,7 @@
       "url": "https://sciweek.sci.psu.ac.th/sci-short-story-contest-extended/",
       "category": "creative",
       "kind": "competition",
-      "summary": "ขยายเวลาเปิดรับสมัครประกวดเรื่องสั้นวิทยาศาสตร์ “รางวัลช่อศรีตรัง ครั้งที่ 13” ถึง 26 มิ.ย. 2569 นี้! - สัปดาห์วิทยาศาสตร์แห่งชาติ ประจำปี 2569 Skip to content หน้าแรก ข่าว การแข่งขัน นิทรรศการ กำหนดการ ดาวน์โหลด ติดต่อ แบบประเมิน เกียรติบัตร ขยายเวลาเปิดรับสมัครประกวดเรื่องสั้นว…",
+      "summary": "ขยายเวลาเปิดรับสมัครประกวดเรื่องสั้นวิทยาศาสตร์ “รางวัลช่อศรีตรัง ครั้งที่ 13” ถึง 26 มิ.ย. 2569 นี้! - สัปดาห์วิทยาศาสตร์แห่งชาติ ประจำปี 2569 --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> --> Skip to content หน้าแรก ข่าว การแข่งขัน นิทรรศการ กำหนดการ ด…",
       "levels": [
         "ม.4",
         "ม.5",
@@ -710,8 +710,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "writing"
@@ -745,8 +745,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "design"
@@ -780,8 +780,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -809,8 +809,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [
         "performance"
@@ -840,8 +840,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -869,8 +869,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -898,8 +898,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -927,8 +927,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -956,8 +956,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": null,
       "formats": [],
       "officialURL": null
@@ -989,8 +989,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-01-25T17:00:00.000Z",
       "formats": [],
       "officialURL": "https://www.ndlp.go.th/hackathon#register",
@@ -1019,8 +1019,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-05-25T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1049,8 +1049,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-04-09T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1079,8 +1079,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-03-20T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1109,8 +1109,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-01-07T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1143,8 +1143,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-01-04T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1175,8 +1175,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-11T17:00:00.000Z",
       "formats": [
         "performance"
@@ -1209,8 +1209,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-11T17:00:00.000Z",
       "formats": [],
       "officialURL": "https://www.facebook.com/photo?fbid=1486257000170735&set=a.453659543430491",
@@ -1219,12 +1219,12 @@
     {
       "id": "auto-bd99cd7",
       "title": "แข่งขันตอบปัญหาวิชาการทางวิทยาศาสตร์ \"เภสัชกรรมระดับมัธยมศึกษาตอนปลาย ครั้งที่ 2 : 2nd Pharmacy Academic Competition\"",
-      "organizer": "ดูผู้จัดในประกาศต้นทาง",
+      "organizer": "สหพันธ์นิสิตนักศึกษาเภสัชศาสตร์แห่งประเทศไทย (PSAT)",
       "source": "contestwar",
       "url": "http://contestwar.com/contest/18051",
       "category": "science",
       "kind": "competition",
-      "summary": "สหพันธ์นิสิตนักศึกษาเภสัชศาสตร์แห่งประเทศไทย (PSAT) ขอเชิญนักเรียนมัธยมศึกษาตอนปลาย สมัครเข้าร่วมการเข้าร่วมการ แข่งขันตอบปัญหาวิชาการทางวิทยาศาสตร์ \"เภสัชกรรมระดับมัธยมศึกษาตอนปลาย ครั้งที่ 2 : 2 nd Pharmacy Academic Competition\"",
+      "summary": "สหพันธ์นิสิตนักศึกษาเภสัชศาสตร์แห่งประเทศไทย (PSAT) ขอเชิญนักเรียนมัธยมศึกษาตอนปลาย สมัครเข้าร่วมการเข้าร่วมการ แข่งขันตอบปัญหาวิชาการทางวิทยาศาสตร์ \"เภสัชกรรมระดับมัธยมศึกษาตอนปลาย ครั้งที่ 2 : 2 nd Pharmacy Academic Competition\" ชิงเงินรางวัล พร้อมเกียรติบัตร คุณสมบัติผู้สมัคร …",
       "levels": [
         "ม.4",
         "ม.5",
@@ -1238,15 +1238,19 @@
       "location": "ดูสถานที่ในประกาศ",
       "area": "unknown",
       "team": "ตรวจสอบจำนวนสมาชิกกับผู้จัด",
-      "tags": [],
+      "tags": [
+        "ประกวดด้านวิชาการ"
+      ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-12-15T17:00:00.000Z",
-      "formats": [],
-      "officialURL": null,
-      "detailsCheckedAt": null
+      "formats": [
+        "video"
+      ],
+      "officialURL": "https://www.facebook.com/PSATTH/posts/pfbid09jDYjZJ9wuGSYZ9QgHfxcpb5Xt6HGKfLQNb5QQFcp69d8WRto5ATJ1Qrqe1TwBcJl",
+      "detailsCheckedAt": "2026-10-19T13:33:33.994Z"
     },
     {
       "id": "auto-fcd746a3",
@@ -1271,8 +1275,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-11-05T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1299,8 +1303,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-08-13T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1333,8 +1337,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-07-29T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1367,8 +1371,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-11T17:00:00.000Z",
       "formats": [],
       "officialURL": "https://www.nsm.or.th/nsm/th/node/8040",
@@ -1397,8 +1401,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-12-15T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1427,8 +1431,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-11-19T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1457,8 +1461,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-08-28T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1487,8 +1491,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-08-28T17:00:00.000Z",
       "formats": [
         "design"
@@ -1519,8 +1523,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-07-29T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1549,8 +1553,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-07-29T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1579,8 +1583,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-06-25T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -1610,8 +1614,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-16T17:00:00.000Z",
       "formats": [
         "video",
@@ -1643,8 +1647,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-06-25T17:00:00.000Z",
       "formats": [
         "animation"
@@ -1675,8 +1679,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-01-05T17:00:00.000Z",
       "formats": [
         "performance"
@@ -1709,8 +1713,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-01-30T17:00:00.000Z",
       "formats": [
         "performance"
@@ -1741,8 +1745,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-11T17:00:00.000Z",
       "formats": [
         "design"
@@ -1773,8 +1777,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-11T17:00:00.000Z",
       "formats": [
         "design"
@@ -1805,8 +1809,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-11T17:00:00.000Z",
       "formats": [
         "video"
@@ -1837,8 +1841,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-23T17:00:00.000Z",
       "formats": [
         "performance"
@@ -1873,8 +1877,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-23T17:00:00.000Z",
       "formats": [
         "video"
@@ -1910,8 +1914,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-04T17:00:00.000Z",
       "formats": [
         "design"
@@ -1947,8 +1951,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-04T17:00:00.000Z",
       "formats": [
         "design"
@@ -1981,8 +1985,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-04T17:00:00.000Z",
       "formats": [
         "photo"
@@ -2015,8 +2019,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-04T17:00:00.000Z",
       "formats": [
         "design"
@@ -2045,8 +2049,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-02T17:00:00.000Z",
       "formats": [
         "photo"
@@ -2077,8 +2081,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-01-25T17:00:00.000Z",
       "formats": [
         "design"
@@ -2116,8 +2120,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-12-17T17:00:00.000Z",
       "formats": [
         "video"
@@ -2128,12 +2132,12 @@
     {
       "id": "auto-dd99ffd",
       "title": "แข่งขัน \"DIT Hackathon 2025 : Unlock Your Future Skill\"",
-      "organizer": "ดูผู้จัดในประกาศต้นทาง",
+      "organizer": "วิทยาลัยนวัตกรรมดิจิทัลเทคโนโลยี มหาวิทยาลัยรังสิต",
       "source": "contestwar",
       "url": "http://contestwar.com/contest/18053",
       "category": "engineering",
       "kind": "competition",
-      "summary": "วิทยาลัยนวัตกรรมดิจิทัลเทคโนโลยี มหาวิทยาลัยรังสิต ขอเชิญนักเรียนมัธยมศึกษาตอนปลาย หรือเทียบเท่า สมัครเข้าร่วมการ แข่งขัน \"DIT Hackathon 2025 : Unlock Your Future Skill\" ภายใต้โจทย์ \"ให้เทคโนโลยีช่วยสร้างสรรค์โลกที่ดีกว่าเดิม\" ชิงท",
+      "summary": "วิทยาลัยนวัตกรรมดิจิทัลเทคโนโลยี มหาวิทยาลัยรังสิต ขอเชิญนักเรียนมัธยมศึกษาตอนปลาย หรือเทียบเท่า สมัครเข้าร่วมการ แข่งขัน \"DIT Hackathon 2025 : Unlock Your Future Skill\" ภายใต้โจทย์ \"ให้เทคโนโลยีช่วยสร้างสรรค์โลกที่ดีกว่าเดิม\" ชิงทุนการศึกษา พร้อมเกียรติบัตร กติการการแข่งขัน ผู้เ…",
       "levels": [
         "ม.4",
         "ม.5",
@@ -2147,15 +2151,19 @@
       "location": "ดูสถานที่ในประกาศ",
       "area": "unknown",
       "team": "ตรวจสอบจำนวนสมาชิกกับผู้จัด",
-      "tags": [],
+      "tags": [
+        "การประกวดทั่วไป"
+      ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-12-16T17:00:00.000Z",
-      "formats": [],
-      "officialURL": null,
-      "detailsCheckedAt": null
+      "formats": [
+        "writing"
+      ],
+      "officialURL": "https://www.facebook.com/photo/?fbid=1312112380958803&set=a.488674906635892",
+      "detailsCheckedAt": "2026-10-19T13:33:33.994Z"
     },
     {
       "id": "auto-15afa207",
@@ -2559,8 +2567,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-12T17:00:00.000Z",
       "formats": [
         "video"
@@ -2591,8 +2599,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-23T17:00:00.000Z",
       "formats": [
         "video"
@@ -2623,8 +2631,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-23T17:00:00.000Z",
       "formats": [
         "video",
@@ -2656,8 +2664,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-23T17:00:00.000Z",
       "formats": [
         "video"
@@ -2688,8 +2696,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-01-25T17:00:00.000Z",
       "formats": [
         "video"
@@ -2720,8 +2728,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-12-17T17:00:00.000Z",
       "formats": [
         "video",
@@ -2753,8 +2761,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-12-15T17:00:00.000Z",
       "formats": [
         "video"
@@ -2785,8 +2793,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-11-09T17:00:00.000Z",
       "formats": [
         "video"
@@ -2817,8 +2825,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-11-09T17:00:00.000Z",
       "formats": [
         "video"
@@ -2849,8 +2857,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-11-05T17:00:00.000Z",
       "formats": [],
       "officialURL": null,
@@ -2879,8 +2887,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-10-28T17:00:00.000Z",
       "formats": [
         "video"
@@ -2911,8 +2919,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-10-09T17:00:00.000Z",
       "formats": [
         "video",
@@ -2944,8 +2952,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-10-05T17:00:00.000Z",
       "formats": [
         "video"
@@ -2976,8 +2984,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-10-05T17:00:00.000Z",
       "formats": [
         "video"
@@ -3008,8 +3016,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-10-02T17:00:00.000Z",
       "formats": [
         "video"
@@ -3040,8 +3048,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2025-09-22T17:00:00.000Z",
       "formats": [
         "video"
@@ -3072,8 +3080,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-11T17:00:00.000Z",
       "formats": [
         "design"
@@ -3104,8 +3112,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-11T17:00:00.000Z",
       "formats": [
         "design"
@@ -3136,8 +3144,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-03-11T17:00:00.000Z",
       "formats": [
         "design"
@@ -3168,8 +3176,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-11T17:00:00.000Z",
       "formats": [
         "design"
@@ -3200,8 +3208,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-04T17:00:00.000Z",
       "formats": [
         "design"
@@ -3232,8 +3240,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-04T17:00:00.000Z",
       "formats": [
         "design"
@@ -3268,8 +3276,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-09-04T04:06:11.000Z",
       "formats": [],
       "officialURL": null,
@@ -3300,8 +3308,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-09-04T03:47:01.000Z",
       "formats": [],
       "officialURL": null,
@@ -3330,8 +3338,8 @@
       ],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-09-04T03:31:31.000Z",
       "formats": [],
       "officialURL": null,
@@ -3559,8 +3567,8 @@
       "tags": [],
       "reviewed": false,
       "needsReview": true,
-      "checkedAt": "2026-10-19T02:45:41.589Z",
-      "fetchedAt": "2026-10-19T02:45:41.589Z",
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
       "publishedAt": "2026-02-11T17:00:00.000Z",
       "formats": [],
       "officialURL": "https://doca.rta.mi.th/news/announcement/2427",
@@ -4320,16 +4328,78 @@
       ],
       "officialURL": null,
       "detailsCheckedAt": "2026-10-14T11:04:04.611Z"
+    },
+    {
+      "id": "auto-6385f63f",
+      "title": "สิทธิพิเศษเข้าศึกษาต่อตรงมหาวิทยาลัยบูรพา ปีการศึกษา 2570",
+      "organizer": "สอวน. · ดูผู้จัดในประกาศ",
+      "source": "posn",
+      "url": "https://www.posn.or.th/news/31524/",
+      "category": "science",
+      "kind": "competition",
+      "summary": "สิทธิพิเศษเข้าศึกษาต่อตรงมหาวิทยาลัยบูรพา ปีการศึกษา 2570 รายละเอียดการรับสมัคร The post สิทธิพิเศษเข้าศึกษาต่อตรงมหาวิทยาลัยบูรพา ปีการศึกษา 2570 appeared first on มูลนิธิส่งเสริมโอลิมปิกวิชาการและพัฒนามาตรฐานวิทยาศาสตร์ศึกษา (สอวน.) .",
+      "levels": [],
+      "deadline": null,
+      "startDate": null,
+      "endDate": null,
+      "fee": null,
+      "feeNote": "ตรวจสอบค่าใช้จ่ายในประกาศ",
+      "location": "ดูสถานที่ในประกาศ",
+      "area": "unknown",
+      "team": "ตรวจสอบจำนวนสมาชิกกับผู้จัด",
+      "tags": [
+        "สิทธิเข้าศึกษาต่ออุดมศึกษา",
+        "สอวน."
+      ],
+      "reviewed": false,
+      "needsReview": true,
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
+      "publishedAt": "2026-10-19T08:32:52.000Z",
+      "formats": [],
+      "officialURL": null,
+      "detailsCheckedAt": null
+    },
+    {
+      "id": "auto-37ea35a",
+      "title": "สิทธิพิเศษเข้าศึกษาต่อตรงมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี ปีการศึกษา 2570",
+      "organizer": "สอวน. · ดูผู้จัดในประกาศ",
+      "source": "posn",
+      "url": "https://www.posn.or.th/news/31521/",
+      "category": "science",
+      "kind": "competition",
+      "summary": "สิทธิพิเศษเข้าศึกษาต่อตรงมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี ปีการศึกษา 2570 รายละเอียดการรับสมัคร The post สิทธิพิเศษเข้าศึกษาต่อตรงมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี ปีการศึกษา 2570 appeared first on มูลนิธิส่งเสริมโอลิมปิกวิชาการและพัฒนามาตรฐานวิทยาศาสตร์ศึกษา (สอวน.) .",
+      "levels": [],
+      "deadline": null,
+      "startDate": null,
+      "endDate": null,
+      "fee": null,
+      "feeNote": "ตรวจสอบค่าใช้จ่ายในประกาศ",
+      "location": "ดูสถานที่ในประกาศ",
+      "area": "unknown",
+      "team": "ตรวจสอบจำนวนสมาชิกกับผู้จัด",
+      "tags": [
+        "สิทธิเข้าศึกษาต่ออุดมศึกษา",
+        "สอวน."
+      ],
+      "reviewed": false,
+      "needsReview": true,
+      "checkedAt": "2026-10-19T13:33:33.994Z",
+      "fetchedAt": "2026-10-19T13:33:33.994Z",
+      "publishedAt": "2026-10-19T08:27:57.000Z",
+      "formats": [],
+      "officialURL": null,
+      "detailsCheckedAt": null
     }
   ],
   "sources": [
     {
-      "status": "success",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
+      "status": "error",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
       "lastSuccess": "2026-10-19T03:01:16.968Z",
-      "message": "อ่าน 25 ข่าว · นำเข้า/อัปเดต 14 รายการ",
-      "scanned": 25,
-      "imported": 14,
+      "message": "อ่านต้นทางไม่สำเร็จ (อ่านฟีด CAMPHUB ไม่สำเร็จทุกช่องทาง) · เก็บข้อมูลเดิมและลองใหม่ในรอบถัดไป",
+      "scanned": 0,
+      "imported": 0,
       "id": "camphub",
       "name": "CAMPHUB",
       "url": "https://www.camphub.in.th/",
@@ -4350,11 +4420,11 @@
     },
     {
       "status": "success",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
-      "lastSuccess": "2026-10-19T03:01:16.968Z",
-      "message": "อ่าน 10 ข่าว · นำเข้า/อัปเดต 1 รายการ",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
+      "lastSuccess": "2026-10-19T13:33:33.994Z",
+      "message": "อ่าน 10 ข่าว · นำเข้า/อัปเดต 3 รายการ",
       "scanned": 10,
-      "imported": 1,
+      "imported": 3,
       "id": "posn",
       "name": "สอวน.",
       "url": "https://www.posn.or.th/",
@@ -4365,8 +4435,8 @@
     },
     {
       "status": "success",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
-      "lastSuccess": "2026-10-19T03:01:16.968Z",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
+      "lastSuccess": "2026-10-19T13:33:33.994Z",
       "message": "อ่านประกาศต้นทางสำเร็จ",
       "scanned": 1,
       "imported": 0,
@@ -4380,8 +4450,8 @@
     },
     {
       "status": "success",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
-      "lastSuccess": "2026-10-19T03:01:16.968Z",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
+      "lastSuccess": "2026-10-19T13:33:33.994Z",
       "message": "อ่านประกาศต้นทางสำเร็จ",
       "scanned": 1,
       "imported": 0,
@@ -4394,12 +4464,12 @@
       "description": "ตรวจการเปลี่ยนแปลงของประกาศ Digital and AI Challenge"
     },
     {
-      "status": "error",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
-      "lastSuccess": "2026-10-19T02:45:41.589Z",
-      "message": "อ่านต้นทางไม่สำเร็จ (ติดต่อหน้าหมวด Contest War ไม่สำเร็จทุกหน้า) · เก็บข้อมูลเดิมและลองใหม่ในรอบถัดไป",
-      "scanned": 0,
-      "imported": 0,
+      "status": "success",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
+      "lastSuccess": "2026-10-19T13:33:33.994Z",
+      "message": "อ่าน 98 ข่าว · นำเข้า/อัปเดต 60 รายการ",
+      "scanned": 98,
+      "imported": 60,
       "id": "contestwar",
       "name": "Contest War",
       "url": "http://contestwar.com/",
@@ -4425,8 +4495,8 @@
     },
     {
       "status": "success",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
-      "lastSuccess": "2026-10-19T03:01:16.968Z",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
+      "lastSuccess": "2026-10-19T13:33:33.994Z",
       "message": "อ่าน 12 ข่าว · นำเข้า/อัปเดต 10 รายการ",
       "scanned": 12,
       "imported": 10,
@@ -4440,9 +4510,9 @@
     },
     {
       "status": "error",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
       "lastSuccess": "2026-10-15T23:03:08.051Z",
-      "message": "อ่านต้นทางไม่สำเร็จ (HTTP 503) · เก็บข้อมูลเดิมและลองใหม่ในรอบถัดไป",
+      "message": "อ่านต้นทางไม่สำเร็จ (fetch failed) · เก็บข้อมูลเดิมและลองใหม่ในรอบถัดไป",
       "scanned": 0,
       "imported": 0,
       "id": "mathassociation",
@@ -4454,12 +4524,12 @@
       "description": "การสอบแข่งขันและโครงงานคณิตศาสตร์ แยกกำหนดการตามแต่ละข่าว"
     },
     {
-      "status": "error",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
-      "lastSuccess": "2026-10-19T02:45:41.589Z",
-      "message": "อ่านต้นทางไม่สำเร็จ (ติดต่อ RSS และหน้าหลัก YSC ไม่สำเร็จ) · เก็บข้อมูลเดิมและลองใหม่ในรอบถัดไป",
-      "scanned": 0,
-      "imported": 0,
+      "status": "success",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
+      "lastSuccess": "2026-10-19T13:33:33.994Z",
+      "message": "อ่าน 4 ข่าว · นำเข้า/อัปเดต 3 รายการ",
+      "scanned": 4,
+      "imported": 3,
       "id": "ysc",
       "name": "YSC · สวทช.",
       "url": "https://www.nstda.or.th/ysc/",
@@ -4470,8 +4540,8 @@
     },
     {
       "status": "success",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
-      "lastSuccess": "2026-10-19T03:01:16.968Z",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
+      "lastSuccess": "2026-10-19T13:33:33.994Z",
       "message": "อ่าน 0 ข่าว · นำเข้า/อัปเดต 0 รายการ",
       "scanned": 0,
       "imported": 0,
@@ -4485,12 +4555,12 @@
       "description": "ติดตามข่าวที่กล่าวถึง NSC บนเว็บบ้านวิทยาศาสตร์สิรินธร ไม่รวมโพสต์ในกลุ่ม Facebook"
     },
     {
-      "status": "error",
-      "lastAttempt": "2026-10-19T03:01:16.968Z",
-      "lastSuccess": "2026-10-19T02:45:41.589Z",
-      "message": "อ่านต้นทางไม่สำเร็จ (HTTP 503) · เก็บข้อมูลเดิมและลองใหม่ในรอบถัดไป",
-      "scanned": 0,
-      "imported": 0,
+      "status": "success",
+      "lastAttempt": "2026-10-19T13:33:33.994Z",
+      "lastSuccess": "2026-10-19T13:33:33.994Z",
+      "message": "อ่าน 12 ข่าว · นำเข้า/อัปเดต 12 รายการ · RSS อ่านไม่ได้ จึงใช้หน้าข่าวของผู้จัด",
+      "scanned": 12,
+      "imported": 12,
       "id": "psu",
       "name": "สัปดาห์วิทยาศาสตร์ · ม.อ.",
       "url": "https://sciweek.sci.psu.ac.th/",
@@ -4500,6 +4570,6 @@
       "description": "การประกวดโครงงานและการแข่งขันวิทย์–คณิตของคณะวิทยาศาสตร์ ม.อ."
     }
   ],
-  "lastSync": "2026-10-19T03:01:16.968Z",
-  "scheduleEnabled": false
+  "lastSync": "2026-10-19T13:33:33.994Z",
+  "scheduleEnabled": true
 }
