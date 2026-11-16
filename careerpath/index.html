@@ -366,6 +366,53 @@ body.has-dock .wrap{padding-bottom:90px}
   .code-big{font-size:38px}
   .lb-row{grid-template-columns:28px 34px 1fr auto;gap:6px}
 }
+/* ===== แชท ===== */
+.chatdrawer{position:fixed;top:0;right:0;bottom:0;width:390px;max-width:100vw;background:var(--paper);border-left:1px solid var(--line);z-index:58;display:flex;flex-direction:column;box-shadow:-24px 0 48px -28px rgba(0,0,0,.45);transform:translateX(102%);transition:transform .22s ease}
+.chatdrawer.on{transform:none}
+.chd-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px 4px;flex:none}
+.chd-head h3{font-size:20px;display:flex;gap:8px;align-items:center;margin:0}
+.chd-head .x{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:#fff;font-size:17px;color:var(--muted)}
+.chd-body{flex:1;min-height:0;display:flex}
+.chp{display:flex;flex-direction:column;flex:1;min-height:0;width:100%}
+.chp-tabs{display:flex;gap:6px;padding:6px 12px 8px;overflow-x:auto;scrollbar-width:none;flex:none}
+.chp-tabs::-webkit-scrollbar{display:none}
+.chp-tabs button{position:relative;flex:none;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font-size:14px;color:var(--ink);display:inline-flex;align-items:center;gap:4px;margin-top:4px}
+.chp-tabs button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chp-tabs button.on .mi{color:#ffd36b!important}
+.chp-tabs .bd{position:absolute;top:-6px;right:-5px;min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:var(--bad);color:#fff;font-size:10.5px;line-height:17px;font-style:normal;text-align:center;font-family:'Kanit'}
+.chp-tabs .chp-hof{margin-left:auto}
+.chp-list{flex:1;min-height:0;overflow-y:auto;padding:8px 12px 12px;display:flex;flex-direction:column;gap:8px;background:#f4eee2;border-top:1px solid var(--line)}
+.chp-list .dock-top,.chp-list h4,.chp-list .pl,.chp-list .feed,.chp-list .dock-bonus,.chp-list .net-err{flex:none}
+.chp-list .pl{background:#fff;border:1px solid var(--line)}
+.chp-empty{margin:auto;text-align:center;color:var(--muted);font-size:14.5px;padding:20px}
+.cm{max-width:86%;align-self:flex-start;background:#fff;border:1px solid var(--line);border-radius:4px 14px 14px 14px;padding:6px 10px 7px;flex:none}
+.cm.me{align-self:flex-end;background:#e7f0ff;border-color:#c9d9f7;border-radius:14px 4px 14px 14px}
+.cm-h{display:flex;align-items:center;gap:6px;font-size:12.5px}
+.cm-h b{font-family:'Kanit';font-weight:500}
+.cm-h small{color:var(--muted);font-size:11px}
+.cm-rp{margin-left:auto;border:0;background:transparent;font-size:12px;opacity:.4;padding:0 3px;border-radius:6px;color:var(--bad)}
+.cm-rp:hover,.cm-rp.arm{opacity:1}
+.cm-rp.arm{background:#fde7e3;font-size:11.5px;padding:1px 7px}
+.cm-b{font-size:15px;line-height:1.45;word-break:break-word;white-space:pre-wrap}
+.cm.sys{align-self:center;max-width:94%;background:#fff6dd;border:1px solid #f1d899;border-radius:14px;padding:5px 12px;font-size:13.5px;text-align:center}
+.cm.sys small{color:var(--muted);font-size:11px;margin-left:6px}
+.chp-foot{flex:none;padding:8px 12px calc(10px + env(safe-area-inset-bottom));border-top:1px solid var(--line);background:var(--paper)}
+.chp-foot:empty{display:none}
+.chp-in{display:flex;gap:8px}
+.chp-in input{flex:1;min-width:0;font:inherit;font-size:16px;padding:10px 14px;border:1.5px solid var(--line);border-radius:999px;background:#fff;outline:none;color:var(--ink)}
+.chp-in input:focus{border-color:var(--accent)}
+.chp-in .btn{border-radius:999px;min-width:50px;padding:0 14px}
+.chp-rule{font-size:11.5px;color:var(--muted);margin-top:6px;line-height:1.4}
+#ncChat{position:relative;padding:5px 10px}
+#ncChat .bd{position:absolute;top:-6px;right:-6px;min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:var(--bad);color:#fff;font-size:10.5px;line-height:17px;font-style:normal;text-align:center;font-family:'Kanit'}
+.hbar{height:8px;background:#efe6d6;border-radius:5px;margin-top:5px;overflow:hidden}
+.hbar i{display:block;height:100%;background:var(--accent);border-radius:5px}
+.bar .wr{position:absolute;top:-2px;bottom:-2px;width:3px;margin-left:-1px;background:#e6a700;border-radius:2px;z-index:3;box-shadow:0 0 0 1px #fff}
+.lb-row.hof .rk{font-size:20px}
+.lb-row.hof .val{font-size:17px;white-space:nowrap}
+#mview.v-chat{padding:0;overflow:hidden}
+.mchat{display:flex;height:70vh}
+.mchat .chp-tabs{padding-top:10px}
 
 /*NET-CSS-END*/
 /*MOB-CSS-BEGIN*/
@@ -409,7 +456,7 @@ body.has-dock .wrap{padding-bottom:90px}
   body.ingame[data-mtab="stats"] .layout .side,body.ingame[data-mtab="passion"] .layout .side{display:block}
   body.ingame[data-mtab="stats"] .sp-pass{display:none}
   body.ingame[data-mtab="passion"] .sp-stats{display:none}
-  body.ingame[data-mtab="log"] .layout,body.ingame[data-mtab="menu"] .layout,body.ingame[data-mtab="room"] .layout{display:none}
+  body.ingame[data-mtab="log"] .layout,body.ingame[data-mtab="menu"] .layout,body.ingame[data-mtab="chat"] .layout{display:none}
   body.ingame:not([data-mtab="play"]) .scene-wrap{display:none}
   body.ingame #mview.on{display:block!important}
   body.ingame .dock{display:none!important}
@@ -497,7 +544,7 @@ function iconize(root){
   if(!root) return;
   if(root.nodeType===3){ root=root.parentNode; if(!root) return; }
   if(root.nodeType!==1) return;
-  const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(n){ const p=n.parentNode; if(!p||/^(SCRIPT|STYLE|TEXTAREA|OPTION|TITLE)$/.test(p.nodeName)||(p.closest&&p.closest('svg'))) return 2; return EMO_TEST.test(n.data)?1:2; }});
+  const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(n){ const p=n.parentNode; if(!p||/^(SCRIPT|STYLE|TEXTAREA|OPTION|TITLE)$/.test(p.nodeName)||(p.closest&&p.closest('svg,.noico'))) return 2; return EMO_TEST.test(n.data)?1:2; }});
   const list=[]; while(tw.nextNode()) list.push(tw.currentNode);
   for(const n of list){
     const t=n.data.replace(/️/g,''); EMO_RE.lastIndex=0; if(!EMO_RE.test(t)) continue; EMO_RE.lastIndex=0;
@@ -2183,7 +2230,7 @@ function renderSide(){
   if(full){ side.style.display='none'; return; }
   side.style.display='';
   const lvNeed=needFor(curTerm());
-  const bar=(k,c)=>`<div class="stat"><span>${STAT_IC[k]||''} ${LABEL[k]}</span><div class="bar">${ACAD.includes(k)?`<b class="lv" style="left:${lvNeed}%"></b>`:''}<i style="width:${S.st[k]}%;background:${ACAD.includes(k)&&S.st[k]<lvNeed?'#e0a020':c}"></i></div><span class="v">${S.st[k]}</span></div>`;
+  const bar=(k,c)=>`<div class="stat"><span>${STAT_IC[k]||''} ${LABEL[k]}</span><div class="bar">${ACAD.includes(k)?`<b class="lv" style="left:${lvNeed}%"></b>`:''}${NET.recMark(k)}<i style="width:${S.st[k]}%;background:${ACAD.includes(k)&&S.st[k]<lvNeed?'#e0a020':c}"></i></div><span class="v">${S.st[k]}</span></div>`;
   const pass=DKEYS.map(d=>{
     const c=S.clarity[d], p=S.passion[d];
     let right;
@@ -2193,7 +2240,7 @@ function renderSide(){
     return `<div class="pass-row"><span>${DOM[d].icon} ${DOM[d].name.split('/')[0]}</span>${right}</div>`;
   }).join('');
   const inner=`<div class="sp-stats">
-    <h3>📘 วิชาการ</h3><div class="note" style="margin:-2px 0 6px">ขีดดำ = เกณฑ์เกรด 3 ของ ${TERM_NAME(curTerm())} (${lvNeed}) · แถบสีเหลือง = ยังต่ำกว่าเกณฑ์</div>${ACAD.map(k=>bar(k,'var(--c-acad)')).join('')}
+    <h3>📘 วิชาการ</h3><div class="note" style="margin:-2px 0 6px">ขีดดำ = เกณฑ์เกรด 3 ของ ${TERM_NAME(curTerm())} (${lvNeed}) · แถบสีเหลือง = ยังต่ำกว่าเกณฑ์${NET.recNote()}</div>${ACAD.map(k=>bar(k,'var(--c-acad)')).join('')}
     <h3>🛠️ ทักษะ</h3>${SKILL.map(k=>bar(k,'var(--c-skill)')).join('')}
     <h3>❤️ สถานะ</h3>${bar('stress',S.st.stress>=70?'var(--bad)':'var(--c-stat)')}${bar('health','var(--good)')}${bar('rel','#d76aa0')}${MI(S.month).y>=5?`${bar('prep','#7b5cd6')}<div class="note" style="margin:2px 0 0">เพิ่มจากตะลุยข้อสอบเก่า · เรียนพิเศษ · สอบ Mock · คอร์สติว (ช่วยคะแนน TGAT/TPAT/A-Level สูงสุด +20)</div>`:''}
     </div><div class="sp-pass"><h3>🔍 ความชอบ (ค้นหาจากการลงมือทำ)</h3>${pass}
@@ -2608,6 +2655,7 @@ const NET=(()=>{
   let saveState='', saveT=null, lastSent='', inflight=false, pending=false;
   let room=null;                // {code,players,feed,seq,rxSince,first,open,now}
   let pollT=null, polling=false, lastPoll=0, sending=false;
+  let cfg={chat:true}, recs=null, recsAt=0;
 
   /* ---------- เรียกเซิร์ฟเวอร์ ---------- */
   function call(fn,...args){
@@ -2626,7 +2674,7 @@ const NET=(()=>{
         .withFailureHandler(e=>{ if(done) return; done=true; clearTimeout(t); rej(e instanceof Error?e:new Error(String(e))); })[fn](...args);
     });
   }
-  function expire(){ if(!me) return; me=null; ss.set(SK,null); leaveRoom(true); toast('หมดเวลาเข้าสู่ระบบ กรุณาเข้าสู่ระบบใหม่'); paint(); }
+  function expire(){ if(!me) return; me=null; ss.set(SK,null); leaveRoom(true); chatStop(); toast('หมดเวลาเข้าสู่ระบบ กรุณาเข้าสู่ระบบใหม่'); paint(); }
   const ago=t=>{ const d=Math.max(0,(Date.now()-t)/1000); return d<60?'เมื่อสักครู่':d<3600?`${Math.floor(d/60)} นาทีที่แล้ว`:d<86400?`${Math.floor(d/3600)} ชม.ที่แล้ว`:`${Math.floor(d/86400)} วันที่แล้ว`; };
   const avatar=L=>{ try{ return L?`<img src="${PX.avatarURL(L,2,true)}" alt="">`:'👤'; }catch(e){ return '👤'; } };
 
@@ -2648,9 +2696,10 @@ const NET=(()=>{
       <p class="note" style="margin:0">ตั้งชื่อผู้เล่นเอง + PIN 4 หลัก · ถ้าเป็นชื่อใหม่ ระบบจะสร้างผู้เล่นให้เลย<br>ครั้งต่อไปใช้ชื่อและ PIN เดิม เพื่อโหลดเซฟได้ทุกเครื่อง</p>
       <div class="fld"><label for="nn">ชื่อผู้เล่น</label><input id="nn" maxlength="16" placeholder="เช่น มิ้นท์ 4/2" value="${esc(ls.get(LK))}" autocomplete="off"><small>2–16 ตัวอักษร · ชื่อนี้จะแสดงในห้องและบนกระดานอันดับ ใช้คำสุภาพนะ</small></div>
       <div class="fld"><label for="np">PIN 4 หลัก</label><input id="np" class="pin" type="password" inputmode="numeric" maxlength="4" placeholder="••••" autocomplete="off"><small>จำไว้ให้ดีและอย่าบอกใคร · ลืม PIN ให้ครูตั้งใหม่ให้</small></div>
+      <div class="fld" id="njw" style="display:none"><label for="nj">รหัสเข้าร่วมจากครู</label><input id="nj" maxlength="20" autocomplete="off" placeholder="ถามรหัสจากครู"><small>ผู้เล่นใหม่ต้องใส่รหัสนี้ เพื่อให้แชทมีแค่คนในโรงเรียน</small></div>
       <div class="net-err" id="ne"></div>
       <div class="row"><button class="btn acc" id="ngo">เข้าสู่ระบบ →</button></div>`);
-    const nn=m.querySelector('#nn'), np=m.querySelector('#np'), ne=m.querySelector('#ne'), go=m.querySelector('#ngo');
+    const nn=m.querySelector('#nn'), np=m.querySelector('#np'), ne=m.querySelector('#ne'), go=m.querySelector('#ngo'), nj=m.querySelector('#nj');
     (nn.value?np:nn).focus();
     np.oninput=()=>{ np.value=np.value.replace(/\D/g,'').slice(0,4); };
     const submit=()=>{
@@ -2658,20 +2707,24 @@ const NET=(()=>{
       if(name.length<2) return ne.textContent='ตั้งชื่ออย่างน้อย 2 ตัวอักษร';
       if(!/^\d{4}$/.test(pin)) return ne.textContent='PIN ต้องเป็นตัวเลข 4 หลัก';
       ne.textContent=''; busy(go,true);
-      call('apiLogin',name,pin).then(r=>{
+      call('apiLogin',name,pin,nj.value.trim()).then(r=>{
         busy(go,false);
-        if(!r.ok){ ne.textContent=r.err; return; }
-        me={token:r.token,id:r.id,name:r.name}; ss.set(SK,me); ls.set(LK,r.name); cloud=r.cloud;
+        if(!r.ok){
+          if(r.err==='JOINCODE'){ m.querySelector('#njw').style.display=''; ne.textContent=nj.value?'รหัสเข้าร่วมไม่ถูกต้อง':'ชื่อนี้ยังไม่มีในระบบ · ผู้เล่นใหม่ต้องใส่รหัสเข้าร่วมจากครู'; nj.focus(); }
+          else ne.textContent=r.err;
+          return;
+        }
+        me={token:r.token,id:r.id,name:r.name}; ss.set(SK,me); ls.set(LK,r.name); cloud=r.cloud; if(r.cfg) cfg=r.cfg; chatStart();
         closeModal(); toast(r.isNew?`สร้างผู้เล่น ${r.name} แล้ว 🎉`:`ยินดีต้อนรับกลับ ${r.name} 👋`);
         paint(); if(!S) render();
         if(!offerCloud()){ if(S) queueSave(); if(after) after(); }
       }).catch(e=>{ busy(go,false); ne.textContent='เชื่อมต่อไม่ได้: '+e.message; });
     };
-    go.onclick=submit; [nn,np].forEach(i=>i.onkeydown=e=>{ if(e.key==='Enter') submit(); });
+    go.onclick=submit; [nn,np,nj].forEach(i=>i.onkeydown=e=>{ if(e.key==='Enter') submit(); });
   }
   function logout(){
     const tok=me&&me.token; if(tok) call('apiLogout',tok).catch(()=>{});
-    leaveRoom(true); me=null; cloud=null; ss.set(SK,null); saveState=''; lastSent='';
+    leaveRoom(true); chatStop(); me=null; cloud=null; ss.set(SK,null); saveState=''; lastSent='';
     closeModal(); toast('ออกจากระบบแล้ว'); paint(); if(!S) render();
   }
   function accountUI(){
@@ -2681,12 +2734,16 @@ const NET=(()=>{
       <div class="row" style="margin-top:14px;flex-wrap:wrap">
         <button class="btn acc" id="aRoom">👥 ห้องเล่นพร้อมกัน</button>
         <button class="btn" id="aBoard">🏆 กระดานอันดับ</button>
+        <button class="btn" id="aHof">🏅 หอเกียรติยศ</button>
+        <button class="btn" id="aChat">💬 แชท</button>
         ${cloud&&!cloud.ended?`<button class="btn" id="aLoad">☁ โหลดเซฟจากคลาวด์</button>`:''}
         <button class="btn ghost" id="aOut">🚪 ออกจากระบบ</button>
       </div>
       <p class="note">เครื่องในห้องคอมใช้ร่วมกัน เล่นเสร็จแล้วกด “ออกจากระบบ” ทุกครั้งนะ</p>`);
     m.querySelector('#aRoom').onclick=roomUI;
     m.querySelector('#aBoard').onclick=()=>boardUI();
+    m.querySelector('#aHof').onclick=()=>hofUI();
+    m.querySelector('#aChat').onclick=()=>{ closeModal(); chatOpen(); };
     const l=m.querySelector('#aLoad'); if(l) l.onclick=()=>loadCloud(l);
     m.querySelector('#aOut').onclick=logout;
   }
@@ -2768,10 +2825,10 @@ const NET=(()=>{
   function enterRoom(code){
     const op=ss.get(RK+'_open');
     room={code,players:[],feed:[],seq:0,rxSince:0,first:true,open:op==null?window.innerWidth>860:!!op,now:Date.now()};
-    ss.set(RK,code); startPoll(); paintDock(true);
+    ss.set(RK,code); startPoll(); paintDock(true); chatRoomChanged(); fetchChat(code);
   }
   function leaveRoom(silent){
-    stopPoll(); room=null; ss.set(RK,null);
+    stopPoll(); room=null; ss.set(RK,null); chatRoomChanged();
     const d=document.getElementById('netdock'); if(d) d.remove(); document.body.classList.remove('has-dock');
     if(!silent) toast('ออกจากห้องแล้ว');
   }
@@ -2868,6 +2925,7 @@ const NET=(()=>{
       d.addEventListener('pointerdown',()=>{ d._busy=Date.now()+900; },true); }
     document.body.classList.add('has-dock');
     if(typeof MOB!=='undefined') MOB.onRoom();
+    if(chat.el&&chat.sub==='members') paintPanel();
     if(!force&&d.innerHTML&&Date.now()<(d._busy||0)){ clearTimeout(d._rt); d._rt=setTimeout(()=>paintDock(),950); return; }
     const body=d.querySelector('.dock-body'), st=body?body.scrollTop:0;
     d.innerHTML=`${room.open?`<div class="dock-body">${roomBodyHTML()}</div>`:''}
@@ -2913,7 +2971,9 @@ const NET=(()=>{
     const gpax=terms.length?terms.reduce((a,t)=>a+ACAD.reduce((x,k)=>x+gradeOf(S.exams['final'+t][k]),0)/ACAD.length,0)/terms.length:0;
     const F=S.tcas&&S.tcas.final, ff=F&&F.fac?facByName(F.fac):null;
     return {gpax:Math.round(gpax*100)/100, found:foundN(), items:(S.itemsMeta||[]).length, tier:ff?facTier(ff):0, fac:ff?ff.n:'', round:ff?F.round:'',
-      prog:PROGRAMS[S.prog]?PROGRAMS[S.prog].name:'', match:!!(ff&&S.passion[ff.d]>=65), look:S.look};
+      prog:PROGRAMS[S.prog]?PROGRAMS[S.prog].name:'', match:!!(ff&&S.passion[ff.d]>=65), look:S.look,
+      rec:{st:Object.fromEntries([...ACAD,...SKILL].filter(k=>S.st[k]!=null).map(k=>[k,S.st[k]])), ex:Object.assign({},S.tcas&&S.tcas.scores||{}),
+        money:S.st.money, rel:S.st.rel, stress:S.st.stress, wins:(S.itemsMeta||[]).filter(i=>i.t===3).length}};
   }
   function endHTML(){
     if(!avail()) return '';
@@ -2921,19 +2981,22 @@ const NET=(()=>{
     const R=S.netSent;
     if(R&&R.score!=null) return `<div class="net-end" id="netEnd">🏆 ส่งผลขึ้นกระดานแล้ว · คะแนนรวม <b class="big">${R.score}</b>
       <div style="margin-top:4px">อันดับ <b>#${R.rankAll}</b> จาก ${R.totalAll} คน${R.rankRoom?` · ในห้อง ${esc(R.room)} อันดับ <b>#${R.rankRoom}</b> จาก ${R.totalRoom} คน`:''}</div>
-      <div class="row" style="margin-top:8px"><button class="btn" id="neBoard">🏆 ดูกระดานอันดับ</button></div></div>`;
+      ${R.newRec&&R.newRec.length?`<div style="margin-top:6px;color:#b07a00">👑 <b>ทำสถิติใหม่!</b> ${R.newRec.map(k=>{ const x=REC_TOP.find(r=>r[0]===k); return x?x[2]:k; }).join(' · ')}</div>`:''}
+      <div class="row" style="margin-top:8px"><button class="btn" id="neBoard">🏆 ดูกระดานอันดับ</button><button class="btn ghost" id="neHof">🏅 หอเกียรติยศ</button></div></div>`;
     return `<div class="net-end" id="netEnd">🏆 กำลังส่งผลขึ้นกระดานอันดับ…</div>`;
   }
   function bindEnd(m){
     if(!avail()) return;
     const l=m.querySelector('#neLogin'); if(l) l.onclick=()=>loginUI(()=>render());
     const b=m.querySelector('#neBoard'); if(b) b.onclick=()=>boardUI(S.netSent&&S.netSent.room||'ALL');
+    const h=m.querySelector('#neHof'); if(h) h.onclick=()=>hofUI();
     if(me&&!S.netSent&&!sending){
       sending=true; const info=endInfo(), code=room?room.code:'';
       call('apiSubmit',me.token,info,code).then(r=>{
         sending=false;
         if(!r.ok){ const e=document.getElementById('netEnd'); if(e) e.innerHTML=`⚠ ส่งผลไม่ได้: ${esc(r.err)} <button class="btn ghost" id="neRetry">ลองใหม่</button>`; const rt=document.getElementById('neRetry'); if(rt) rt.onclick=()=>render(); return; }
-        S.netSent={score:r.score,rankAll:r.rankAll,totalAll:r.totalAll,rankRoom:r.rankRoom,totalRoom:r.totalRoom,room:code};
+        S.netSent={score:r.score,rankAll:r.rankAll,totalAll:r.totalAll,rankRoom:r.rankRoom,totalRoom:r.totalRoom,room:code,newRec:r.newRec||[]};
+        loadRecs(true); fetchChat('world');
         save(); feed('end',`คะแนนรวม ${r.score}`);
         if(S.phase==='end') render();
       }).catch(e=>{ sending=false; const el=document.getElementById('netEnd'); if(el) el.innerHTML=`⚠ ส่งผลไม่ได้ (${esc(e.message)}) <button class="btn ghost" id="neRetry">ลองใหม่</button>`; const rt=document.getElementById('neRetry'); if(rt) rt.onclick=()=>render(); });
@@ -2944,12 +3007,12 @@ const NET=(()=>{
   function homeHTML(){
     if(!avail()) return `<p class="note" style="text-align:center;margin-top:14px">🌐 ระบบออนไลน์ (เซฟบนคลาวด์ · ห้องเล่นพร้อมกัน · กระดานอันดับ) ยังไม่เปิดในลิงก์นี้ · ตอนนี้เล่นได้ปกติ เกมเซฟไว้ในเครื่อง</p>`;
     if(!me) return `<div class="net-card"><h3>🌐 เล่นออนไลน์</h3>
-      <div class="net-feats"><span>☁ เซฟบนคลาวด์ เล่นต่อได้ทุกเครื่อง</span><span>👥 ห้องเล่นพร้อมกันกับเพื่อน</span><span>🏆 กระดานอันดับ</span></div>
-      <div class="row"><button class="btn acc" id="hnLogin">🔑 เข้าสู่ระบบ / สร้างผู้เล่น</button><button class="btn ghost" id="hnBoard">🏆 ดูกระดานอันดับ</button></div></div>`;
+      <div class="net-feats"><span>☁ เซฟบนคลาวด์ เล่นต่อได้ทุกเครื่อง</span><span>💬 แชทโลก</span><span>👥 ห้องเล่นพร้อมกันกับเพื่อน</span><span>🏆 กระดานอันดับ · 🏅 หอเกียรติยศ</span></div>
+      <div class="row"><button class="btn acc" id="hnLogin">🔑 เข้าสู่ระบบ / สร้างผู้เล่น</button><button class="btn ghost" id="hnBoard">🏆 กระดานอันดับ</button><button class="btn ghost" id="hnHof">🏅 หอเกียรติยศ</button></div></div>`;
     return `<div class="net-card"><h3>🌐 สวัสดี ${esc(me.name)}</h3>
       <div class="note" style="margin:0">${cloud?`☁ เซฟบนคลาวด์: <b>${esc(cloud.label)}</b> · ${ago(cloud.savedAt)}`:'☁ ยังไม่มีเซฟบนคลาวด์ เริ่มเล่นแล้วระบบจะบันทึกให้อัตโนมัติ'}${room?` · 👥 อยู่ในห้อง <b>${esc(room.code)}</b>`:''}</div>
       <div class="row">${cloud&&!cloud.ended?`<button class="btn acc" id="hnLoad">☁ เล่นต่อจากคลาวด์</button>`:''}
-        <button class="btn" id="hnRoom">👥 ห้องเล่นพร้อมกัน</button><button class="btn" id="hnBoard">🏆 กระดานอันดับ</button><button class="btn ghost" id="hnOut">🚪 ออกจากระบบ</button></div></div>`;
+        <button class="btn" id="hnChat">💬 แชทโลก</button><button class="btn" id="hnRoom">👥 ห้องเล่นพร้อมกัน</button><button class="btn" id="hnBoard">🏆 กระดานอันดับ</button><button class="btn" id="hnHof">🏅 หอเกียรติยศ</button><button class="btn ghost" id="hnOut">🚪 ออกจากระบบ</button></div></div>`;
   }
   function bindHome(m){
     const q=s=>m.querySelector(s);
@@ -2958,16 +3021,174 @@ const NET=(()=>{
     if(q('#hnLoad')) q('#hnLoad').onclick=e=>loadCloud(e.currentTarget);
     if(q('#hnRoom')) q('#hnRoom').onclick=roomUI;
     if(q('#hnOut')) q('#hnOut').onclick=logout;
+    if(q('#hnHof')) q('#hnHof').onclick=()=>hofUI();
+    if(q('#hnChat')) q('#hnChat').onclick=()=>chatOpen('world');
   }
+
+  /* ---------- หอเกียรติยศ (สถิติสูงสุดแต่ละหมวด) ---------- */
+  const REC_TOP=[['score','⭐','คะแนนรวมสูงสุด',v=>Math.round(v).toLocaleString()],['gpax','🎓','GPAX สูงสุด',v=>(+v).toFixed(2)],
+    ['found','🔍','ค้นพบความชอบมากที่สุด',v=>`${v}/12 สาย`],['items','📁','ผลงาน Portfolio มากที่สุด',v=>`${v} ชิ้น`],['wins','🥇','ชนะเลิศมากที่สุด',v=>`${v} ครั้ง`],
+    ['money','💰','เงินเก็บมากที่สุด',v=>`${(+v).toLocaleString()} บาท`],['rel','💞','ความสัมพันธ์ดีที่สุด',v=>`${v}/100`],['calm','😌','จบแบบชิลล์ที่สุด',v=>`เครียดแค่ ${100-v}`]];
+  function loadRecs(force){
+    if(!avail()) return Promise.resolve(null);
+    if(!force&&recs&&Date.now()-recsAt<300000) return Promise.resolve(recs);
+    return call('apiRecords',me?me.token:'').then(r=>{ if(r&&r.ok){ recs=r; recsAt=Date.now(); if(S&&S.phase&&S.phase!=='end') try{ renderSide(); }catch(e){} } return recs; }).catch(()=>recs);
+  }
+  function recMark(k){ const x=recs&&recs.st&&recs.st[k]; return x?`<b class="wr" style="left:${Math.min(99,x.v)}%" title="สถิติสูงสุด ${x.v} · ${esc(x.n)}"></b>`:''; }
+  const recNote=()=>recs&&recs.st&&Object.keys(recs.st).length?' · <span style="color:#c98b00">ขีดทอง = สถิติสูงสุดของผู้เล่นทั้งหมด</span>':'';
+  function hofUI(){
+    const st={tab:'top'};
+    const m=modal(`<h2>🏅 หอเกียรติยศ</h2><p class="note" style="margin:0" id="hfSum">สถิติสูงสุดที่ผู้เล่นทุกคนเคยทำไว้</p>
+      <div class="lb-tabs" id="hfT"></div><div class="lb-list" id="hfL"><p class="note">กำลังโหลด…</p></div>`,true);
+    const tabs=[['top','🏆 สถิติรวม'],['st','📘 รายวิชา'],['ex','📝 คะแนนสอบ'],['fac','🏛 คณะยอดฮิต']];
+    const row=(ic,label,x,fmt,mine)=>`<div class="lb-row hof"><div class="rk">${ic}</div><div class="av">${x?avatar(x.look):''}</div>
+      <div><div class="nm">${label}</div><div class="sub">${x?`👑 <b>${esc(x.n)}</b>${x.fac&&x.fac!=='Gap Year'?' · 🎓 '+esc(x.fac):''}`:'ยังไม่มีใครทำ'}${mine!=null?` · คุณ: <b>${fmt(mine)}</b>`:''}</div></div>
+      <div class="val">${x?fmt(x.v):'–'}</div></div>`;
+    const paint=()=>{
+      m.querySelector('#hfT').innerHTML=tabs.map(([k,l])=>`<button data-t="${k}" class="${st.tab===k?'on':''}">${l}</button>`).join('');
+      m.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{ st.tab=b.dataset.t; paint(); });
+      const L=m.querySelector('#hfL');
+      if(!recs){ L.innerHTML='<p class="note">กำลังโหลด…</p>'; return; }
+      m.querySelector('#hfSum').textContent=`ผู้เล่นทั้งหมด ${recs.players} คน · เล่นจบแล้ว ${recs.games} เกม`;
+      const mine=recs.mine||{};
+      if(st.tab==='top') L.innerHTML=REC_TOP.map(([k,ic,l,f])=>row(ic,l,recs.top[k],f,mine.top?mine.top[k]:null)).join('');
+      else if(st.tab==='st'){ const keys=[...ALL_SUBJ,...SKILL].filter(k=>recs.st[k]&&LABEL[k]);
+        L.innerHTML=keys.length?keys.map(k=>row(STAT_IC[k]||'📘',LABEL[k]+' สูงสุด',recs.st[k],v=>v,mine.st?mine.st[k]:null)).join(''):'<p class="note">ยังไม่มีสถิติ</p>'; }
+      else if(st.tab==='ex'){ const keys=Object.keys(EXAMS).filter(k=>recs.ex[k]);
+        L.innerHTML=keys.length?keys.map(k=>row('📝',esc(EXAMS[k].name||k),recs.ex[k],v=>v,mine.ex?mine.ex[k]:null)).join(''):'<p class="note">ยังไม่มีใครสอบ TCAS จบ</p>'; }
+      else { const mx=Math.max(1,...recs.fac.map(x=>x[1]));
+        L.innerHTML=recs.fac.length?recs.fac.map(([f,n],i)=>`<div class="lb-row"><div class="rk">${i+1}</div><div class="av">${f==='Gap Year'?'🧭':'🎓'}</div>
+          <div><div class="nm">${esc(f)}</div><div class="hbar"><i style="width:${n/mx*100}%"></i></div></div><div class="val">${n} คน</div></div>`).join(''):'<p class="note">ยังไม่มีข้อมูล</p>'; }
+    };
+    paint(); loadRecs(true).then(()=>{ if(document.body.contains(m)) paint(); });
+  }
+
+  /* ---------- แชทโลก / แชทห้อง ---------- */
+  const CK='cp_chat_seen';
+  const chat={scope:'world', items:{}, off:false, open:false, sub:'chat', fastT:null, slowT:null, el:null, busy:false};
+  let seen={}; try{ seen=JSON.parse(localStorage.getItem(CK)||'{}'); }catch(e){}
+  const saveSeen=()=>{ try{ localStorage.setItem(CK,JSON.stringify(seen)); }catch(e){} };
+  const hm=t=>{ const d=new Date(t), n=new Date(); const p=x=>String(x).padStart(2,'0'); const tt=`${p(d.getHours())}:${p(d.getMinutes())}`;
+    return d.toDateString()===n.toDateString()?tt:`${d.getDate()}/${d.getMonth()+1} ${tt}`; };
+  const COLORS=['#c0392b','#2e7d5b','#2f5bb7','#8e44ad','#b9770e','#16807f','#c2185b','#5d4037'];
+  const nameColor=id=>{ let h=0; for(const ch of String(id)) h=(h*31+ch.charCodeAt(0))>>>0; return COLORS[h%COLORS.length]; };
+  const scopes=()=>['world'].concat(room?[room.code]:[]);
+  function unread(sc){ const a=chat.items[sc]||[]; const t0=seen[sc]||0; return me?a.filter(x=>x.t>t0&&x.i!==me.id).length:0; }
+  const unreadAll=()=>scopes().reduce((a,sc)=>a+unread(sc),0);
+  function markSeen(sc){ const a=chat.items[sc]||[]; if(a.length){ seen[sc]=Math.max(seen[sc]||0,a[a.length-1].t); saveSeen(); } }
+  function msgHTML(x,sc){
+    const mine=me&&x.i===me.id;
+    if(x.i==='SYS') return `<div class="cm sys"><span>${esc(x.m)}</span><small>${hm(x.t)}</small></div>`;
+    return `<div class="cm ${mine?'me':''}"><div class="cm-h"><b style="color:${nameColor(x.i)}">${esc(x.n)}</b><small>${hm(x.t)}</small>${mine?'':`<button class="cm-rp" data-rp="${x.k}" data-t="${x.t}" data-s="${esc(sc)}" title="รายงานข้อความไม่เหมาะสม">🚩</button>`}</div><div class="cm-b noico">${esc(x.m)}</div></div>`;
+  }
+  function panelHTML(){
+    const tabs=[['world','🌍 แชทโลก']].concat(room?[[room.code,`💬 ห้อง ${room.code}`],['members','👥 คนในห้อง']]:[]);
+    return `<div class="chp">
+      <div class="chp-tabs">${tabs.map(([k,l])=>`<button data-sc="${esc(k)}">${l}<i class="bd" data-u="${esc(k)}"></i></button>`).join('')}<button class="chp-hof" data-hof title="หอเกียรติยศ">🏅</button></div>
+      <div class="chp-list" aria-live="polite"></div>
+      <div class="chp-foot"></div></div>`;
+  }
+  function paintPanel(force){
+    const el=chat.el; if(!el||!document.body.contains(el)) return;
+    if(chat.sub==='members'&&!room) chat.sub='chat';
+    if(chat.scope!=='world'&&(!room||room.code!==chat.scope)) chat.scope='world';
+    const cur=chat.sub==='members'?'members':chat.scope;
+    el.querySelectorAll('[data-sc]').forEach(b=>{ b.classList.toggle('on',b.dataset.sc===cur); });
+    el.querySelectorAll('[data-u]').forEach(i=>{ const k=i.dataset.u; const n=k==='members'?0:(k===cur?0:unread(k)); i.textContent=n?(n>99?'99+':n):''; i.style.display=n?'':'none'; });
+    const L=el.querySelector('.chp-list'), F=el.querySelector('.chp-foot');
+    if(!me){ L.innerHTML=`<div class="chp-empty">💬 เข้าสู่ระบบเพื่อคุยกับเพื่อน ๆ ที่เล่นเกมนี้<br><button class="btn acc" data-login style="margin-top:10px">🔑 เข้าสู่ระบบ</button></div>`; F.innerHTML='';
+      L.querySelector('[data-login]').onclick=()=>loginUI(()=>{ rebuild(); }); return; }
+    if(chat.sub==='members'){ if(Date.now()<(chat.mbusy||0)&&!force) return; L.innerHTML=room?roomBodyHTML():''; bindRoom(L); L.onpointerdown=()=>{ chat.mbusy=Date.now()+900; }; F.innerHTML=''; return; }
+    L.onpointerdown=null;
+    if(chat.off){ L.innerHTML='<div class="chp-empty">💤 ตอนนี้ครูปิดแชทอยู่</div>'; F.innerHTML=''; return; }
+    const a=chat.items[chat.scope];
+    const near=L.scrollHeight-L.scrollTop-L.clientHeight<80;
+    L.innerHTML=!a?'<div class="chp-empty">กำลังโหลด…</div>':a.length?a.map(x=>msgHTML(x,chat.scope)).join(''):`<div class="chp-empty">ยังไม่มีข้อความ ${chat.scope==='world'?'เริ่มทักทายทุกคนเลย 👋':'ทักทายเพื่อนในห้องเลย 👋'}</div>`;
+    if(near||force) L.scrollTop=L.scrollHeight;
+    L.querySelectorAll('[data-rp]').forEach(b=>b.onclick=()=>report(b));
+    if(!F.querySelector('input')){
+      F.innerHTML=`<div class="chp-in"><input maxlength="120" placeholder="พิมพ์ข้อความ…" enterkeyhint="send"><button class="btn acc" data-send aria-label="ส่ง">➤</button></div>
+        <div class="chp-rule">🛡️ ครูเห็นทุกข้อความ · ห้ามคำหยาบ/บูลลี่ · ห้ามบอกเบอร์ ไลน์ ลิงก์ · เจอข้อความไม่ดีกด 🚩</div>`;
+      const inp=F.querySelector('input'); F.querySelector('[data-send]').onclick=()=>send(inp); inp.onkeydown=e=>{ if(e.key==='Enter'&&!e.isComposing) send(inp); };
+    }
+    if(chat.open) markSeen(chat.scope);
+    paintBadges();
+  }
+  function rebuild(){
+    if(!chat.el) return;
+    chat.el.innerHTML=panelHTML();
+    chat.el.querySelectorAll('[data-sc]').forEach(b=>b.onclick=()=>{ const k=b.dataset.sc; if(k==='members'){ chat.sub='members'; } else { chat.sub='chat'; chat.scope=k; } paintPanel(true); fetchChat(chat.scope,true); });
+    chat.el.querySelector('[data-hof]').onclick=()=>hofUI();
+    paintPanel(true);
+  }
+  function send(inp){
+    const t=inp.value.trim(); if(!t||!me||chat.busy) return;
+    chat.busy=true; inp.disabled=true;
+    call('apiChatPost',me.token,chat.scope,t).then(r=>{
+      chat.busy=false; inp.disabled=false; inp.focus();
+      if(!r.ok){ toast(r.err==='AUTH'?'กรุณาเข้าสู่ระบบใหม่':r.err); return; }
+      inp.value=''; chat.items[r.scope]=r.items; markSeen(r.scope); paintPanel(true);
+      if(r.masked) toast('บางคำถูกซ่อนไว้เพื่อความปลอดภัย 🛡️');
+    }).catch(e=>{ chat.busy=false; inp.disabled=false; toast('ส่งไม่ได้: '+e.message); });
+  }
+  function report(b){
+    if(!b.dataset.arm){ b.dataset.arm=1; b.textContent='รายงาน?'; b.classList.add('arm'); setTimeout(()=>{ if(b.isConnected){ delete b.dataset.arm; b.textContent='🚩'; b.classList.remove('arm'); } },3000); return; }
+    b.disabled=true;
+    call('apiChatReport',me.token,b.dataset.rp,b.dataset.t,b.dataset.s).then(r=>{ toast(r.ok?(r.hidden?'ซ่อนข้อความแล้ว ขอบคุณที่ช่วยดูแล 🙏':'รายงานแล้ว ครูจะตรวจสอบ 🙏'):r.err); if(r.ok) fetchChat(b.dataset.s,true); })
+      .catch(()=>toast('รายงานไม่ได้ ลองใหม่'));
+  }
+  function fetchChat(sc,now){
+    if(!me||!avail()) return Promise.resolve();
+    return call('apiChatGet',me.token,sc).then(r=>{
+      if(!r.ok){ if(r.err==='ROOM'&&sc!=='world'){ chat.scope='world'; } return; }
+      chat.off=!!r.off; cfg.chat=!r.off;
+      const prev=chat.items[r.scope||sc]||[], next=r.items||[];
+      const lastPrev=prev.length?prev[prev.length-1].t:0;
+      chat.items[r.scope||sc]=next;
+      const fresh=next.filter(x=>x.t>lastPrev&&x.i!==me.id);
+      if(prev.length&&fresh.length&&!(chat.open&&chat.scope===sc)){ const x=fresh[fresh.length-1]; if(x.i==='SYS') toast(x.m); }
+      paintPanel(); paintBadges();
+    }).catch(()=>{});
+  }
+  function chatTimers(){
+    clearInterval(chat.fastT); clearInterval(chat.slowT);
+    if(!me||!avail()) return;
+    chat.fastT=setInterval(()=>{ if(chat.open&&!document.hidden&&chat.sub!=='members') fetchChat(chat.scope); },4000);
+    chat.slowT=setInterval(()=>{ if(document.hidden) return; scopes().forEach(sc=>{ if(!(chat.open&&sc===chat.scope)) fetchChat(sc); }); },20000);
+  }
+  function chatStart(){ if(!me||!avail()) return; chatTimers(); scopes().forEach(sc=>fetchChat(sc)); }
+  function chatStop(){ clearInterval(chat.fastT); clearInterval(chat.slowT); chat.items={}; chatClose(); paintBadges(); }
+  function paintBadges(){
+    const n=unreadAll();
+    const b=document.getElementById('ncChat'); if(b){ const i=b.querySelector('.bd'); if(i){ i.textContent=n>99?'99+':n; i.style.display=n?'':'none'; } }
+    if(typeof MOB!=='undefined') MOB.onChat();
+  }
+  // แสดงแชทในกล่องที่กำหนด (แท็บมือถือ) หรือในลิ้นชักด้านขวา (คอม)
+  function chatMount(el){ chat.el=el; chat.open=true; rebuild(); fetchChat(chat.scope,true); }
+  function chatUnmount(){ chat.open=false; chat.el=null; }
+  function chatOpen(scope){
+    if(scope) { chat.scope=scope; chat.sub='chat'; }
+    if(typeof MOB!=='undefined'&&MOB.useNav()){ MOB.setTab('chat'); return; }
+    let d=document.getElementById('chatdrawer');
+    if(!d){ d=document.createElement('aside'); d.id='chatdrawer'; d.className='chatdrawer'; document.body.appendChild(d); }
+    d.innerHTML=`<div class="chd-head"><h3>💬 แชท</h3><button class="x" data-cx aria-label="ปิด">✕</button></div><div class="chd-body"></div>`;
+    d.querySelector('[data-cx]').onclick=chatClose;
+    requestAnimationFrame(()=>d.classList.add('on'));
+    chatMount(d.querySelector('.chd-body'));
+  }
+  function chatClose(){ const d=document.getElementById('chatdrawer'); if(d){ d.classList.remove('on'); setTimeout(()=>{ if(!d.classList.contains('on')) d.remove(); },250); } if(chat.el&&d&&d.contains(chat.el)) chatUnmount(); }
+  function chatRoomChanged(){ if(chat.el) rebuild(); }
 
   /* ---------- ชิปมุมขวาบน ---------- */
   function paintChip(){
     const c=document.getElementById('netchip'); if(!c) return;
     if(!avail()){ c.innerHTML=''; return; }
     const cs=!me?'':saveState==='saving'?'☁ กำลังบันทึก…':saveState==='err'?'⚠ บันทึกคลาวด์ไม่สำเร็จ':saveState==='ok'?'☁ บันทึกแล้ว':'';
-    c.innerHTML=me?`<button class="chip netchip" id="ncBtn"><span class="dot on"></span><b>${esc(me.name)}</b>${cs?` <span class="cs">${cs}</span>`:''}</button>`
-                  :`<button class="chip netchip" id="ncBtn"><span class="dot"></span>🌐 เข้าสู่ระบบออนไลน์</button>`;
+    c.innerHTML=(me?`<button class="chip netchip" id="ncChat" title="แชท">💬<i class="bd" style="display:none"></i></button>`:'')+(me?`<button class="chip netchip" id="ncBtn"><span class="dot on"></span><b>${esc(me.name)}</b>${cs?` <span class="cs">${cs}</span>`:''}</button>`
+                  :`<button class="chip netchip" id="ncBtn"><span class="dot"></span>🌐 เข้าสู่ระบบออนไลน์</button>`);
     c.querySelector('#ncBtn').onclick=()=>me?accountUI():loginUI();
+    const cc=c.querySelector('#ncChat'); if(cc) cc.onclick=()=>chatOpen();
+    paintBadges();
   }
   function paint(){ paintChip(); paintDock(); }
 
@@ -2980,14 +3201,16 @@ const NET=(()=>{
 
   function init(){
     paintChip();
+    if(avail()){ loadRecs(); setInterval(()=>{ if(!document.hidden) loadRecs(); },300000); }
     if(!avail()||!me) return;
     call('apiWho',me.token).then(r=>{
       if(!r.ok) return;
-      cloud=r.cloud; paint(); if(!S) render();
+      cloud=r.cloud; if(r.cfg) cfg=r.cfg; paint(); if(!S) render(); chatStart();
       const rc=ss.get(RK); if(rc&&!room) call('apiRoomJoin',me.token,rc).then(j=>{ if(j.ok) enterRoom(j.code); else ss.set(RK,null); }).catch(()=>{});
     }).catch(()=>{});
   }
   return {avail,init,paint,paintChip,queueSave,feed,bonusFor,homeHTML,bindHome,endHTML,bindEnd,loginUI,boardUI,roomUI,accountUI,logout,roomBodyHTML,bindRoom,onlineN,
+    hofUI,recMark,recNote,chatOpen,chatMount,chatUnmount,unreadAll,
     get me(){ return me; }, get room(){ return room; }};
 })();
 
@@ -3021,16 +3244,18 @@ const MOB=(()=>{
     const on=ingame();
     document.body.classList.toggle('ingame',on);
     const hud=document.getElementById('mhud'), nav=document.getElementById('mnav'), mv=document.getElementById('mview');
-    if(!on){ tab='play'; document.body.dataset.mtab='play'; hud.innerHTML=''; nav.innerHTML=''; mv.classList.remove('on'); mv.innerHTML=''; seenPass=''; seenLog=''; return; }
+    if(!on){ leaveChat(); tab='play'; document.body.dataset.mtab='play'; hud.innerHTML=''; nav.innerHTML=''; mv.classList.remove('on'); mv.innerHTML=''; seenPass=''; seenLog=''; return; }
     if(!seenPass) seenPass=passKey();
     if(!seenLog) seenLog=logKey();
-    if(tab==='room'&&!((typeof NET!=='undefined')&&NET.room)) tab='play';
+    if(tab==='chat'&&!((typeof NET!=='undefined')&&NET.avail())) tab='play';
     if(tab==='passion') seenPass=passKey();
     if(tab==='log') seenLog=logKey();
     document.body.dataset.mtab=tab;
     const d=document.querySelector('#side details'); if(d) d.open=true;
     paintHud(); paintNav();
-    if(['log','menu','room'].includes(tab)) paintView(); else { mv.classList.remove('on'); }
+    if(tab==='chat'){ if(mv.dataset.v!=='chat') paintView(); else { mv.classList.add('on'); fitChat(); } }
+    else if(['log','menu'].includes(tab)) paintView();
+    else { leaveChat(); mv.classList.remove('on'); mv.dataset.v=''; }
   }
   function paintHud(){
     const h=document.getElementById('mhud'); if(!h||!S) return;
@@ -3048,12 +3273,12 @@ const MOB=(()=>{
   function paintNav(){
     const nav=document.getElementById('mnav'); if(!nav) return;
     const items=[['play','🎮','เล่น'],['stats','📊','ค่าพลัง'],['passion','🔍','ความชอบ'],['log','📜','บันทึก']];
-    if((typeof NET!=='undefined')&&NET.room) items.push(['room','👥','ห้อง']);
+    if((typeof NET!=='undefined')&&NET.avail()) items.push(['chat','💬','แชท']);
     items.push(['menu','☰','เมนู']);
     const badge=k=>{
       if(k==='passion'&&tab!=='passion'&&passKey()!==seenPass) return '<i class="bd dot"></i>';
       if(k==='log'&&tab!=='log'&&logKey()!==seenLog) return '<i class="bd dot"></i>';
-      if(k==='room'){ const n=NET.onlineN(); return n?`<i class="bd ok">${n}</i>`:''; }
+      if(k==='chat'){ const u=tab==='chat'?0:NET.unreadAll(); if(u) return `<i class="bd">${u>99?'99+':u}</i>`; const n=NET.room?NET.onlineN():0; return n?`<i class="bd ok">${n}</i>`:''; }
       return '';
     };
     nav.style.setProperty('--n',items.length);
@@ -3068,17 +3293,25 @@ const MOB=(()=>{
     sync();
     window.scrollTo(0,k==='play'?(scrollPos.play||0):0);
   }
+  function leaveChat(){ const mv=document.getElementById('mview'); if(mv&&mv.dataset.v==='chat'){ NET.chatUnmount(); mv.classList.remove('v-chat'); mv.innerHTML=''; } }
+  function fitChat(){
+    const mv=document.getElementById('mview'), box=mv&&mv.querySelector('.mchat'); if(!box) return;
+    const nav=document.getElementById('mnav'), vv=window.visualViewport;
+    const vh=vv?vv.height:window.innerHeight, top=box.getBoundingClientRect().top, nh=nav?nav.offsetHeight:0;
+    box.style.height=Math.max(260,vh-Math.max(0,top)-nh-10)+'px';
+  }
   function paintView(){
     const mv=document.getElementById('mview'); if(!mv) return;
     mv.classList.add('on');
+    if(tab!=='chat') leaveChat();
+    mv.dataset.v=tab;
+    if(tab==='chat'){
+      mv.classList.add('v-chat'); mv.innerHTML='<div class="mchat"></div>';
+      NET.chatMount(mv.querySelector('.mchat')); requestAnimationFrame(fitChat); return;
+    }
     if(tab==='log'){
       mv.innerHTML=`<h2>📜 บันทึกเหตุการณ์</h2><p class="note" style="margin:0 0 6px">เรื่องที่เกิดขึ้นล่าสุดอยู่บนสุด</p>
         <div class="mlog">${S.log.length?S.log.map(l=>`<div>${l}</div>`).join(''):'<div class="note">ยังไม่มีบันทึก</div>'}</div>`;
-    } else if(tab==='room'){
-      if(!((typeof NET!=='undefined')&&NET.room)) { mv.innerHTML=''; return; }
-      mv.innerHTML=`<h2>👥 ห้องเล่นพร้อมกัน</h2>${NET.roomBodyHTML()}`;
-      NET.bindRoom(mv);
-      mv.onpointerdown=()=>{ mvBusy=Date.now()+900; };
     } else if(tab==='menu'){
       const on=(typeof NET!=='undefined')&&NET.avail(), me=on&&NET.me;
       mv.innerHTML=`<h2>☰ เมนู</h2>
@@ -3088,7 +3321,9 @@ const MOB=(()=>{
         <div class="mmenu">
           ${on?(me?`<button data-m="acct">🌐<span>${esc(me.name)}<small>บัญชีออนไลน์ · เซฟคลาวด์ · ออกจากระบบ</small></span></button>`
                   :`<button data-m="login">🔑<span>เข้าสู่ระบบออนไลน์<small>เซฟบนคลาวด์ เล่นต่อได้ทุกเครื่อง</small></span></button>`):''}
-          ${on?`<button data-m="room">👥<span>ห้องเล่นพร้อมกัน<small>${(typeof NET!=='undefined')&&NET.room?'อยู่ในห้อง '+esc(NET.room.code):'สร้างห้อง หรือใส่รหัสห้องของเพื่อน'}</small></span></button>
+          ${on?`<button data-m="chat">💬<span>แชทโลก / แชทห้อง<small>คุยกับเพื่อนที่เล่นเกมนี้</small></span></button>
+                <button data-m="hof">🏅<span>หอเกียรติยศ<small>สถิติสูงสุดของผู้เล่นทั้งหมดในแต่ละหมวด</small></span></button>
+                <button data-m="room">👥<span>ห้องเล่นพร้อมกัน<small>${(typeof NET!=='undefined')&&NET.room?'อยู่ในห้อง '+esc(NET.room.code):'สร้างห้อง หรือใส่รหัสห้องของเพื่อน'}</small></span></button>
                 <button data-m="board">🏆<span>กระดานอันดับ<small>ดูอันดับทุกคน / ในห้อง</small></span></button>`:''}
           <button data-m="home">🏠<span>กลับหน้าหลัก<small>เกมนี้เซฟไว้แล้ว กลับมาเล่นต่อได้</small></span></button>
           <button data-m="reset" class="warn">🔄<span>${armReset?'แตะอีกครั้งเพื่อยืนยัน':'เริ่มเกมใหม่'}<small>${armReset?'เกมที่เล่นอยู่จะหายไป':'ลบเกมนี้แล้วสร้างตัวละครใหม่'}</small></span></button>
@@ -3098,22 +3333,19 @@ const MOB=(()=>{
       mv.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>{
         const m=b.dataset.m;
         if(m==='login') NET.loginUI(); else if(m==='acct') NET.accountUI(); else if(m==='room') NET.roomUI(); else if(m==='board') NET.boardUI();
+        else if(m==='hof') NET.hofUI(); else if(m==='chat') setTab('chat');
         else if(m==='home'){ save(); S=null; SU=null; tab='play'; render(); window.scrollTo(0,0); }
         else if(m==='reset'){ if(!armReset){ armReset=1; paintView(); return; } clearSave(); S=null; SU=newSetup(); tab='play'; render(); window.scrollTo(0,0); }
       });
     }
   }
-  function onRoom(){
-    if(!ingame()) return;
-    paintNav();
-    if(tab==='room'){
-      if(!((typeof NET!=='undefined')&&NET.room)){ setTab('play'); return; }
-      if(Date.now()<mvBusy){ clearTimeout(onRoom._t); onRoom._t=setTimeout(onRoom,950); return; }
-      paintView();
-    }
-  }
+  function onRoom(){ if(ingame()) paintNav(); }
+  function onChat(){ if(ingame()) paintNav(); }
+  const useNav=()=>isMob()&&ingame();
+  window.addEventListener('resize',()=>{ if(tab==='chat') fitChat(); });
+  if(window.visualViewport) visualViewport.addEventListener('resize',()=>{ if(tab==='chat') fitChat(); });
   mq.addEventListener?mq.addEventListener('change',()=>sync()):mq.addListener(()=>sync());
-  return {sync,setTab,onRoom,isMob,get tab(){ return tab; }};
+  return {sync,setTab,onRoom,onChat,isMob,useNav,get tab(){ return tab; }};
 })();
 (function(){ const _r=render; render=function(){ const r=_r.apply(null,arguments); try{ MOB.sync(); }catch(e){ console.warn(e); } return r; }; })();
 
